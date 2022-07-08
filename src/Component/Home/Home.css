@@ -1,0 +1,41 @@
+.navSmallStyle{
+    display: none;
+}
+
+nav .navMobile{
+    font-size: 20px;
+    font-weight: 600;
+}
+.navMobile li{
+    transition: all 0.5s ease-in-out;
+    padding-bottom: 10px;
+}
+li.active, li:hover{
+    border-bottom: 2px solid #008bff;
+    color: #008bff;
+}
+
+
+@media (max-width: 768px) {
+    .navMobile{
+        background-color:#1d1d24;
+        width: 100%;
+        height: 100%;
+        color: #ffffff;
+        padding: 40px;
+        text-align: left;
+        position: fixed;
+        right:0;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .navMobile li{
+        padding: 10px;
+        transition: all 0.5s ease-in-out;
+    }
+    li.active, li:hover{
+        border-bottom: 4px solid #008bff;
+        color: #008bff;
+    }
+
+}
