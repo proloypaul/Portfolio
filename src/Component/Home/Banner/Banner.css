@@ -1,0 +1,23 @@
+.slideUp h1 h1{
+    margin-bottom: 60px;
+    display: inline-block;
+
+}
+.slideUp{
+    overflow: hidden;
+    height: 50px;
+}
+.slideUp h1:nth-child(1){
+    animation: animate 12s ease-in-out infinite;
+}
+
+@keyframes animate {
+    0%{margin-top: -270px;}
+    /* 5%{margin-top: -180px;}
+    33%{margin-top: -1800px;}
+    38%{margin-top: -90px;}
+    66%{margin-top: -90px;}
+    71%{margin-top: 0px;}
+    99.99%{margin-top: 270px;}
+    100%{margin-top: -270px;} */
+}

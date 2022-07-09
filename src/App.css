@@ -2,6 +2,8 @@ body{
   background-color: #000000;
   color: #fff;
   padding: 0px 20px;
+  margin: 0;
+  box-sizing: border-box;
 }
 .App {
   text-align: center;
