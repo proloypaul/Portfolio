@@ -8,9 +8,37 @@
     height: 100px;
 }
 .slideUp h1:nth-child(1){
-    animation: animate 10s linear infinite;
+    animation: animate 8s linear infinite;
 }
 
+.commonBtnOne{
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    transition: all 0.7s ease-in-out;
+}
+.commonBtnTwo{
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    color: #000000;
+    background-color: #fff;
+    transition: all 0.9s ease-in-out;
+}
+.commonBtnOne:hover{
+    background: #fff;
+    color: #000000;
+}
+.commonBtnTwo:hover{
+    background-color: #000000;
+    border: 2px solid #fff;
+    color: #fff;
+}
 @keyframes animate {
     0%{margin-top: -200px;}
     5%{margin-top: -180px;}

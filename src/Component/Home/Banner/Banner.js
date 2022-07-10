@@ -1,4 +1,10 @@
 import React from 'react';
+import {AiOutlineGithub} from 'react-icons/ai';
+import {BsLinkedin} from 'react-icons/bs';
+import {AiOutlineTwitter} from 'react-icons/ai';
+import {BsInstagram} from 'react-icons/bs';
+import {IoIosOpen} from 'react-icons/io';
+import {AiOutlineSelect} from 'react-icons/ai';
 import './Banner.css';
 
 const Banner = () => {
@@ -14,14 +20,24 @@ const Banner = () => {
                         <h1><h1 className='text-6xl font-black'>Developer.</h1></h1>
                         <h1><h1 className='text-6xl font-black' >Programmer.</h1></h1>
                     </div>
-                    <div className='py-5'>
-                        <button>Resume</button>
-                        <button>Hire Me</button>
+                    <div className='py-5 flex'>
+                        <a href='lkdjflk' target='_blank' className='commonBtnTwo mr-3.5 flex justify-between items-center'>Resume <IoIosOpen/></a>
+                        <a href='llkdklfd' className='commonBtnTwo flex justify-between items-center'>Hire Me <AiOutlineSelect/></a>
                     </div>
                     
                 </div>
-                <div>
-                    <h1>Img porsion here</h1>
+                <div className='flex'>
+                    <div>
+                        <img src='https://i.ibb.co/wW217bP/homeImg.png' alt='Empty' width='300px' height='400px'/>
+                    </div>
+                    <div className='pt-5 flex justify-center items-center'>
+                        <div>
+                            <div><a href='https://github.com/proloypaul/' className='text-3xl hover:text-slate-400'><AiOutlineGithub/></a></div>
+                            <div className='py-4'><a href='https://github.com/proloypaul/' className='text-3xl hover:text-slate-400'><BsLinkedin/></a></div>
+                            <div className='pb-4'><a href='https://github.com/proloypaul/' className='text-3xl hover:text-slate-400'><AiOutlineTwitter/></a></div>
+                            <div><a href='https://github.com/proloypaul/' className='text-3xl pt-2 hover:text-slate-400'><BsInstagram/></a></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

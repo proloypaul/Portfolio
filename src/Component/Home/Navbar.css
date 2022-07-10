@@ -2,7 +2,7 @@
     position: relative;
 }
 .textAnimation h1::before{
-    content: "UtshaPaul";
+    content: "UtshaPaul.";
     color: #008bff;
     width: 100%;
     position: absolute;
@@ -10,7 +10,7 @@
     animation: textSlide 3s linear infinite;
     -webkit-animation: textSlide 3s linear infinite;
     -moz-animation: textSlide 3s linear infinite;
-    -o-animation: textSlide 2s linear infinite;
+    -o-animation: textSlide 8s linear infinite;
     overflow: hidden;
 }
 .navSmallStyle{
