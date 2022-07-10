@@ -1,3 +1,18 @@
+.textAnimation h1{
+    position: relative;
+}
+.textAnimation h1::before{
+    content: "UtshaPaul";
+    color: #008bff;
+    width: 100%;
+    position: absolute;
+    border-right:3px solid #008bff;
+    animation: textSlide 3s linear infinite;
+    -webkit-animation: textSlide 3s linear infinite;
+    -moz-animation: textSlide 3s linear infinite;
+    -o-animation: textSlide 2s linear infinite;
+    overflow: hidden;
+}
 .navSmallStyle{
     display: none;
 }
@@ -15,6 +30,18 @@ li.active, li:hover{
     color: #008bff;
 }
 
+@keyframes textSlide {
+    0%{
+        width: 0%;
+    }
+    50%{
+        width: 100%;
+    }
+    100%{
+        width: 0%;
+    }
+    
+}
 
 @media (max-width: 768px) {
     .navMobile{

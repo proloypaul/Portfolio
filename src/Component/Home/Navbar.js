@@ -23,8 +23,8 @@ const Navbar = () => {
     return (
         <div className='py-5'>
             <nav className='flex justify-between py-5'>
-                <div>
-                    <h1 className='text-3xl font-bold'>Portfolio</h1>
+                <div className='textAnimation'>
+                    <h1 className='text-4xl font-black'>UtshaPaul</h1>
                 </div>
                 <div>
                     <div onClick={() => handleBar(clicked)} className='sm:flex lg:hidden text-3xl pb-5'>{clicked ?<GoThreeBars/> : <GoEyeClosed/>}</div>
