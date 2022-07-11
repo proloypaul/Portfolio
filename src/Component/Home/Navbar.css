@@ -64,5 +64,11 @@ li.active, li:hover{
         border-bottom: 4px solid #008bff;
         color: #008bff;
     }
+    /* skill component design */
+    .skillNavMobile{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-gap: 10px;
+    }
 
 }

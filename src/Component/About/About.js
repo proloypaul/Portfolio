@@ -35,7 +35,7 @@ const About = () => {
             <div className='py-5'>
                 <div className='py-5'>
                     <ul className='flex cursor-pointer font-bold text-2xl'>
-                        <li className='mr-10' onClick={() => handleClick(false)}>Main Skill</li>
+                        <li className='mr-10' onClick={() => handleClick(false)}>Main Skills</li>
                         <li onClick={() => handleClick(true)}>Education</li>
                     </ul>
                 </div>
