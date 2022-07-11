@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
+import Skill from './Skill/Skill';
+
 
 
 const About = () => {
@@ -44,13 +46,14 @@ const About = () => {
                     </div>
                     <div className='py-5'>
                         <p>Web development certificate - <span className='text-slate-400 font-light'>Programming Hero, Dhaka</span></p>
-                        <p className='text-slate-400 font-light'>2019-2020</p>
+                        <p className='text-slate-400 font-light'>2020</p>
                     </div>
                     <div>
                         <p>Diploma in Computer Science - <span className='text-slate-400 font-light'>Dhaka Politechnic Institute, Dhaka</span></p>
                         <p className='text-slate-400 font-light'>2019-2020</p>
                     </div>
-                </div>: <h1>Skill section here</h1> }
+                </div>: <h1><Skill/></h1>}
+
                 
             </div>
         </div>

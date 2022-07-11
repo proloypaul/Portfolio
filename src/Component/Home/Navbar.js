@@ -34,7 +34,6 @@ const Navbar = () => {
                         <li><Link to="/about"><CgProfile/> About</Link></li>
                         <li><Link to="/project"><AiOutlineProject/> Project</Link></li>
                         <li><Link to="/blogs"><FaBlogger/> Blogs</Link></li>
-                        {/* <li>Contact</li> */}
                     </ul>
                 </div>
             </nav>
