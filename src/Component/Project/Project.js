@@ -1,9 +1,70 @@
+
 import React from 'react';
+import {IoIosOpen} from 'react-icons/io';
+import {BsGithub} from 'react-icons/bs';
+import {AiFillDownCircle} from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
 const Project = () => {
     return (
-        <div>
-            <h1>Project section</h1>
+        <div className='py-10'>
+            <h1 className='text-4xl font-bold text-center'>Project</h1>
+            <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-4 py-10'>
+                <div className='py-3.5 px-5 bg-zinc-900 text-slate-400  shadow-slate-400 border-0 rounded-lg' >
+                    <h1 className='font-bold text-3xl'>CarEbiDco_Web</h1>
+                    <a href='lkfldksjfkdjfkd' className='my-10 py-5 mx-16 border-0 rounded-md text-white font-bold text-xl flex justify-center items-center text-slate-400 cursor-pointer hover:underline' style={{backgroundColor: '#008bff'}}>Visit <IoIosOpen/></a>
+                    <div>
+                        <h1 className='text-xl font-bold'>Used Technoloy</h1>
+                        <div className='pl-5'>
+                            <li className='list-disc'>React</li>
+                            <li className='list-disc'>Meterial</li>
+                            <li className='list-disc'>Express</li>
+                            <li className='list-disc'>Mongodb</li>
+                        </div>
+                        <div className='py-5 flex justify-center'>
+                            <Link to='/' className='commonBtnTwo flex items-center'>Details <IoIosOpen/></Link>
+                            <a href='kfjdkfjlk' className='commonBtnTwo'><BsGithub/></a>
+                        </div>
+                    </div>
+                </div>
+                <div className='py-3.5 px-5 bg-zinc-900 text-slate-400  shadow-slate-400 border-0 rounded-lg' >
+                    <h1 className='font-bold text-3xl'>CarEbiDco_Web</h1>
+                    <a href='lkfldksjfkdjfkd' className='my-10 py-5 mx-16 border-0 rounded-md text-white font-bold text-xl flex justify-center items-center text-slate-400 cursor-pointer hover:underline' style={{backgroundColor: '#008bff'}}>Visit <IoIosOpen/></a>
+                    <div>
+                        <h1 className='text-xl font-bold'>Used Technoloy</h1>
+                        <div className='pl-5'>
+                            <li className='list-disc'>React</li>
+                            <li className='list-disc'>Meterial</li>
+                            <li className='list-disc'>Express</li>
+                            <li className='list-disc'>Mongodb</li>
+                        </div>
+                        <div className='py-5 flex justify-center'>
+                            <Link to='/' className='commonBtnTwo flex items-center'>Details <IoIosOpen/></Link>
+                            <a href='kfjdkfjlk' className='commonBtnTwo'><BsGithub/></a>
+                        </div>
+                    </div>
+                </div>
+                <div className='py-3.5 px-5 bg-zinc-900 text-slate-400  shadow-slate-400 border-0 rounded-lg' >
+                    <h1 className='font-bold text-3xl'>CarEbiDco_Web</h1>
+                    <a href='lkfldksjfkdjfkd' className='my-10 py-5 mx-16 border-0 rounded-md text-white font-bold text-xl flex justify-center items-center text-slate-400 cursor-pointer hover:underline' style={{backgroundColor: '#008bff'}}>Visit <IoIosOpen/></a>
+                    <div>
+                        <h1 className='text-xl font-bold'>Used Technoloy</h1>
+                        <div className='pl-5'>
+                            <li className='list-disc'>React</li>
+                            <li className='list-disc'>Meterial</li>
+                            <li className='list-disc'>Express</li>
+                            <li className='list-disc'>Mongodb</li>
+                        </div>
+                        <div className='py-5 flex justify-center'>
+                            <Link to='/' className='commonBtnTwo flex items-center'>Details <IoIosOpen/></Link>
+                            <a href='kfjdkfjlk' className='commonBtnTwo'><BsGithub/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1 className='text-xl font-bold flex justify-center items-center cursor-pointer animate-bounce'><span className='text-2xl text-blue-500'><AiFillDownCircle/></span> See more</h1>
+            </div>
         </div>
     );
 };
