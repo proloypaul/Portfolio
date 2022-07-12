@@ -13,15 +13,15 @@ const Banner = () => {
         <div className='py-5'>
             <div className='lg:flex lg:justify-between'>
                 <div>
-                    <p className='text-xl uppercase py-5'>Welcome to my world</p>
+                    <p className='text-xl uppercase py-5 text-slate-400'>Welcome to my world</p>
                     <h1 className='text-6xl font-black py-5'>Hi, I'm Utsha</h1>
                     <div className='slideUp' style={{color: '#008bff', }}>
                         <h1><h1 className='text-6xl font-black' >Designer.</h1></h1>
-                        <h1><h1 className='text-6xl font-black'>Developer.</h1></h1>
+                        <h1><h1 className='text-6xl font-black'>Frontend Developer.</h1></h1>
                         <h1><h1 className='text-6xl font-black' >Programmer.</h1></h1>
                     </div>
                     <div className='py-5 flex'>
-                        <a href='lkdjflk' target='_blank' className='commonBtnTwo mr-3.5 flex justify-between items-center'>Resume <IoIosOpen/></a>
+                        <a href='lkdjflk' target='_blank' className='commonBtnTwo mr-3.5 flex justify-between items-center'>Open Resume <IoIosOpen/></a>
                         <a href='llkdklfd' className='commonBtnTwo flex justify-between items-center'>Hire Me <AiOutlineSelect/></a>
                     </div>
                     

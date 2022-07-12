@@ -22,12 +22,24 @@ const About = () => {
             <div className='lg:flex  lg:justify-between  py-5'>
                 <div className='w-full'>
                     <img src='https://i.ibb.co/GvYtn28/pic2-removebg-preview.png' alt='Empty!' className=' w-1/2 border-2 rounded-full'/>
+                    <div className='pt-5'>
+                        <div>
+                            <h1><span className='text-slate-400 font-bold text-xl'>__Name</span>: Utsha Kumar Paul</h1>
+                            <h1><span className='text-slate-400 font-bold text-xl'>__Phone</span>: (+88) 01309778619</h1>
+                        </div>
+                        <div>
+                            <h1><span className='text-slate-400 font-bold text-xl'>__Age</span>: 21</h1>
+                            <h1><span className='text-slate-400 font-bold text-xl'>__Address</span>: Dhaka, Bangladesh</h1>
+                            <h1><span className='text-slate-400 font-bold text-xl'>__Profession</span>: Frontend Web development</h1>
+                        </div>
+                        
+                    </div>
                 </div>
                 <div className='w-full flex items-center justify-center text-xl leading-6 text-slate-400'>
                     <div>
                         <p>I'm Utsha and I Know Some Interesting Tecnology <span style={{color: '#008bff', fontWeight: 'bold'}}>{text} <Cursor/></span></p>
                         <p>
-                            I am a passionate Front End Developer with knowing some fameuse frameworks. That's right I am a junior web developer but I will do my best to fulfill all the requirements of your work. My keen interest in learning new technology
+                            I am a passionate Front End Developer with knowing some famous frameworks. I love working on chanllenging projects with learning something new and writting clean code. I want to retain and enhance my skills by working at an Institute. My keen interest in learning new technology
                         </p>
                     </div>
                 </div>
