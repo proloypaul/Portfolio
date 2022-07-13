@@ -16,9 +16,12 @@ const Banner = () => {
                     <p className='text-xl uppercase py-5 text-slate-400'>Welcome to my world</p>
                     <h1 className='text-6xl font-black py-5'>Hi, I'm Utsha</h1>
                     <div className='slideUp' style={{color: '#008bff', }}>
-                        <h1><h1 className='text-6xl font-black' >Designer.</h1></h1>
-                        <h1><h1 className='text-6xl font-black'>Frontend Developer.</h1></h1>
-                        <h1><h1 className='text-6xl font-black' >Programmer.</h1></h1>
+                        {/* <h1><h1 className='text-6xl font-black' >Programmer.</h1></h1>
+                        <h1><h1 className='text-6xl font-black'>Junior Developer.</h1></h1>
+                        <h1><h1 className='text-6xl font-black' >Frontend Developer.</h1></h1> */}
+                        <h1 className='text-6xl font-black' >Programmer.</h1>
+                        <h1 className='text-6xl font-black'>Junior Developer.</h1>
+                        <h1 className='text-6xl font-black' >Frontend Developer.</h1>
                     </div>
                     <div className='py-5 flex'>
                         <a href='lkdjflk' target='_blank' className='commonBtnTwo mr-3.5 flex justify-between items-center'>Open Resume <IoIosOpen/></a>

@@ -65,8 +65,6 @@ const About = () => {
                         <p className='text-slate-400 font-light'>2019-2020</p>
                     </div>
                 </div>: <h1><Skill/></h1>}
-
-                
             </div>
         </div>
     );

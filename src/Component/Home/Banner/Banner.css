@@ -1,14 +1,13 @@
-.slideUp h1 h1{
-    margin-bottom: 45px;
-    display: inline-block;
-
-}
 .slideUp{
     overflow: hidden;
     height: 100px;
 }
+.slideUp h1{
+    line-height: 100px;
+}
+
 .slideUp h1:nth-child(1){
-    animation: animate 8s linear infinite;
+    animation: animate 8s infinite;
 }
 
 .commonBtnOne{
@@ -39,6 +38,7 @@
     border: 2px solid #fff;
     color: #fff;
 }
+
 @keyframes animate {
     0%{margin-top: -200px;}
     5%{margin-top: -180px;}
