@@ -12,7 +12,7 @@ const Project = () => {
             <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-4 py-10'>
                 <div className='py-3.5 px-5 bg-zinc-900 text-slate-400  shadow-slate-400 border-0 rounded-lg' >
                     <h1 className='font-bold text-3xl'>CarEbiDco_Web</h1>
-                    <a href='lkfldksjfkdjfkd' className='my-10 py-5 mx-16 border-0 rounded-md text-white font-bold text-xl flex justify-center items-center text-slate-400 cursor-pointer hover:underline' style={{backgroundColor: '#008bff'}}>Visit <IoIosOpen/></a>
+                    <a href='lkfldksjfkdjfkd' className='my-10 py-5 mx-16 border-0 rounded-md text-white font-bold text-xl flex justify-center items-center text-slate-400 cursor-pointer hover:underline' style={{backgroundColor: '#008bff'}}>Visit<span className='animate-bounce'><IoIosOpen/></span></a>
                     <div>
                         <h1 className='text-xl font-bold'>Used Technoloy</h1>
                         <div className='pl-5'>
@@ -22,14 +22,14 @@ const Project = () => {
                             <li className='list-disc'>Mongodb</li>
                         </div>
                         <div className='py-5 flex justify-center'>
-                            <Link to='/' className='commonBtnTwo flex items-center'>Details <IoIosOpen/></Link>
+                            <Link to='/' className='commonBtnTwo flex items-center mr-2'>Details <IoIosOpen/></Link>
                             <a href='kfjdkfjlk' className='commonBtnTwo'><BsGithub/></a>
                         </div>
                     </div>
                 </div>
                 <div className='py-3.5 px-5 bg-zinc-900 text-slate-400  shadow-slate-400 border-0 rounded-lg' >
                     <h1 className='font-bold text-3xl'>CarEbiDco_Web</h1>
-                    <a href='lkfldksjfkdjfkd' className='my-10 py-5 mx-16 border-0 rounded-md text-white font-bold text-xl flex justify-center items-center text-slate-400 cursor-pointer hover:underline' style={{backgroundColor: '#008bff'}}>Visit <IoIosOpen/></a>
+                    <a href='lkfldksjfkdjfkd' className='my-10 py-5 mx-16 border-0 rounded-md text-white font-bold text-xl flex justify-center items-center text-slate-400 cursor-pointer hover:underline' style={{backgroundColor: '#008bff'}}>Visit <span className='animate-bounce'><IoIosOpen/></span></a>
                     <div>
                         <h1 className='text-xl font-bold'>Used Technoloy</h1>
                         <div className='pl-5'>
@@ -39,14 +39,14 @@ const Project = () => {
                             <li className='list-disc'>Mongodb</li>
                         </div>
                         <div className='py-5 flex justify-center'>
-                            <Link to='/' className='commonBtnTwo flex items-center'>Details <IoIosOpen/></Link>
+                            <Link to='/' className='commonBtnTwo flex items-center mr-2'>Details <IoIosOpen/></Link>
                             <a href='kfjdkfjlk' className='commonBtnTwo'><BsGithub/></a>
                         </div>
                     </div>
                 </div>
                 <div className='py-3.5 px-5 bg-zinc-900 text-slate-400  shadow-slate-400 border-0 rounded-lg' >
                     <h1 className='font-bold text-3xl'>CarEbiDco_Web</h1>
-                    <a href='lkfldksjfkdjfkd' className='my-10 py-5 mx-16 border-0 rounded-md text-white font-bold text-xl flex justify-center items-center text-slate-400 cursor-pointer hover:underline' style={{backgroundColor: '#008bff'}}>Visit <IoIosOpen/></a>
+                    <a href='lkfldksjfkdjfkd' className='my-10 py-5 mx-16 border-0 rounded-md text-white font-bold text-xl flex justify-center items-center text-slate-400 cursor-pointer hover:underline' style={{backgroundColor: '#008bff'}}>Visit <span className='animate-bounce'><IoIosOpen/></span></a>
                     <div>
                         <h1 className='text-xl font-bold'>Used Technoloy</h1>
                         <div className='pl-5'>
@@ -56,7 +56,7 @@ const Project = () => {
                             <li className='list-disc'>Mongodb</li>
                         </div>
                         <div className='py-5 flex justify-center'>
-                            <Link to='/' className='commonBtnTwo flex items-center'>Details <IoIosOpen/></Link>
+                            <Link to='/' className='commonBtnTwo flex items-center mr-2'>Details <IoIosOpen/></Link>
                             <a href='kfjdkfjlk' className='commonBtnTwo'><BsGithub/></a>
                         </div>
                     </div>

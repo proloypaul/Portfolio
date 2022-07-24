@@ -2,7 +2,7 @@
     position: relative;
 }
 .textAnimation h1::before{
-    content: "UtshaPaul.";
+    content: "UtshaPaul";
     color: #008bff;
     width: 100%;
     position: absolute;

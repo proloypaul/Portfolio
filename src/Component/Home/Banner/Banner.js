@@ -22,7 +22,7 @@ const Banner = () => {
                     </div>
                     <div className='py-5 pt-12 flex'>
                         <a href='lkdjflk' target='_blank' className='commonBtnTwo mr-3.5 flex justify-between items-center'>Open Resume <IoIosOpen/></a>
-                        <a href='llkdklfd' className='commonBtnTwo flex justify-between items-center'>Hire Me <AiOutlineSelect/></a>
+                        <a href='llkdklfd' className='commonBtnTwo flex justify-between items-center'>Contact<AiOutlineSelect/></a>
                     </div>
                     
                 </div>
@@ -30,12 +30,12 @@ const Banner = () => {
                     <div>
                         <img src='https://i.ibb.co/wW217bP/homeImg.png' alt='Empty' width='300px' height='400px'/>
                     </div>
-                    <div className='pt-5 flex justify-center items-center'>
-                        <div>
-                            <div><a href='https://github.com/proloypaul/' className='text-3xl hover:text-slate-400'><AiOutlineGithub/></a></div>
-                            <div className='py-4'><a href='https://github.com/proloypaul/' className='text-3xl hover:text-slate-400'><BsLinkedin/></a></div>
-                            <div className='pb-4'><a href='https://github.com/proloypaul/' className='text-3xl hover:text-slate-400'><AiOutlineTwitter/></a></div>
-                            <div><a href='https://github.com/proloypaul/' className='text-3xl pt-2 hover:text-slate-400'><BsInstagram/></a></div>
+                    <div className='pt-5 flex justify-center items-center lg:relative'>
+                        <div className='lg:fixed'>
+                            <div><a href='https://github.com/proloypaul/' className='text-3xl hover:text-blue-500'><AiOutlineGithub/></a></div>
+                            <div className='py-4'><a href='https://github.com/proloypaul/' className='text-3xl hover:text-blue-500'><BsLinkedin/></a></div>
+                            <div className='pb-4'><a href='https://github.com/proloypaul/' className='text-3xl hover:text-blue-500'><AiOutlineTwitter/></a></div>
+                            <div><a href='https://github.com/proloypaul/' className='text-3xl pt-2 hover:text-blue-500'><BsInstagram/></a></div>
                         </div>
                     </div>
                 </div>
