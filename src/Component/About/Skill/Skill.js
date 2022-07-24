@@ -11,6 +11,7 @@ const Skill = () => {
                 <Link to='/about/tools' className='px-5 py-2 bg-white text-black border-0 rounded-full hover:bg-slate-400'>Tools</Link>
             </nav>
             <Outlet/>
+            
         </div>
     );
 };

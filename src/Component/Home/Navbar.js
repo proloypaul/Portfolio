@@ -6,7 +6,7 @@ import {GoHome} from 'react-icons/go';
 import {AiOutlineProject} from 'react-icons/ai';
 import {CgProfile} from 'react-icons/cg';
 
-import {Link} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 import './Navbar.css';
 
 const Navbar = () => {
@@ -30,10 +30,10 @@ const Navbar = () => {
                     <div onClick={() => handleBar(clicked)} className='sm:flex lg:hidden text-3xl pb-5'>{clicked ?<GoThreeBars/> : <GoEyeClosed/>}</div>
                     <div className='sm:flex lg:hidden'></div>
                     <ul className={clicked ? 'navSmallStyle': 'lg:flex lg:justify-around w-96 navMobile'} >
-                        <li className='active'><Link to="/"><GoHome/> Home</Link></li>
-                        <li><Link to="/about"><CgProfile/> About</Link></li>
-                        <li><Link to="/project"><AiOutlineProject/> Project</Link></li>
-                        <li><Link to="/blogs"><FaBlogger/> Blogs</Link></li>
+                        <li><NavLink to="/" activeclassName='active'><GoHome/> Home</NavLink></li>
+                        <li><NavLink to="/about" activeclassName='active'><CgProfile/> About</NavLink></li>
+                        <li><NavLink to="/project" activeclassName='active'><AiOutlineProject/> Project</NavLink></li>
+                        <li><NavLink to="/blogs" activeclassName='active'><FaBlogger/> Blogs</NavLink></li>
                     </ul>
                 </div>
             </nav>

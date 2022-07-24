@@ -47,7 +47,7 @@ const About = () => {
             <div className='py-5'>
                 <div className='py-5'>
                     <ul className='flex cursor-pointer font-bold text-2xl'>
-                        <li className='mr-10 hover:text-blue-500 hover:border-b-2 hover:border-blue-500 ' onClick={() => handleClick(false)}>Main Skills</li>
+                        <li className='mr-10 text-blue-500 border-b-2 border-blue-500 ' onClick={() => handleClick(false)}>Main Skills</li>
                         <li className='hover:text-blue-500 hover:border-b-2 hover:border-blue-500' onClick={() => handleClick(true)}>Education</li>
                     </ul>
                 </div>

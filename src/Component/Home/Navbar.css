@@ -25,9 +25,15 @@ nav .navMobile{
     transition: all 0.5s ease-in-out;
     padding-bottom: 10px;
 }
-.navMobile li.active, .navMobile li:hover{
+.navMobile li:hover{
     border-bottom: 2px solid #008bff;
     color: #008bff;
+}
+
+.active{
+    border-bottom: 2px solid #008bff;
+    color: #008bff;
+    padding-bottom: 10px;
 }
 
 @keyframes textSlide {
@@ -60,9 +66,14 @@ nav .navMobile{
         padding: 20px 0px;
         transition: all 0.5s ease-in-out;
     }
-    li.active, li:hover{
+    li:hover{
         border-bottom: 4px solid #008bff;
         color: #008bff;
+    }
+    .active{
+        border-bottom: 2px solid #008bff;
+        color: #008bff;
+        padding-bottom: 10px;
     }
     /* skill component design */
     .skillNavMobile{
