@@ -27,14 +27,14 @@
     border-radius: 5px;
     color: #000000;
     background-color: #fff;
-    transition: all 0.9s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 .commonBtnOne:hover{
     background: #fff;
     color: #000000;
 }
 .commonBtnTwo:hover{
-    background-color: #000000;
+    background: #000000;
     border: 2px solid #fff;
     border-bottom: 5px solid #008bff;
     color: #fff;

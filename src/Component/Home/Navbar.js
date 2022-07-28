@@ -5,8 +5,7 @@ import {FaBlogger} from 'react-icons/fa';
 import {GoHome} from 'react-icons/go';
 import {AiOutlineProject} from 'react-icons/ai';
 import {CgProfile} from 'react-icons/cg';
-
-import {NavLink} from 'react-router-dom'
+import {NavLink} from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -23,7 +22,7 @@ const Navbar = () => {
     return (
         <div className='py-5'>
             <nav className='flex justify-between py-5'>
-                <div className='textAnimation'>
+                <div className='textAnimation flex justify-center items-center'>
                     <h1 className='text-4xl font-black'>UtshaPaul😊</h1>
                 </div>
                 <div>

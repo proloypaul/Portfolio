@@ -18,10 +18,10 @@ const Banner = () => {
                     <div className='slideUp' style={{color: '#008bff', }}>
                         <h1 className='text-6xl font-black' >Programmer.</h1>
                         <h1 className='text-6xl font-black'>Junior Developer.</h1>
-                        <h1 className='text-6xl font-black' >Frontend Developer.</h1>
+                        <h1 className='text-6xl font-black' >Frontend Dev.</h1>
                     </div>
                     <div className='py-5 pt-12 flex'>
-                        <a href='lkdjflk' target='_blank' className='commonBtnTwo mr-3.5 flex justify-between items-center'>Open Resume <IoIosOpen/></a>
+                        <a href='lkdjflk' target='_blank' className='commonBtnTwo mr-3.5 flex justify-between items-center'>Resume <IoIosOpen/></a>
                         <a href='llkdklfd' className='commonBtnTwo flex justify-between items-center'>Contact<AiOutlineSelect/></a>
                     </div>
                     

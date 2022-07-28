@@ -39,7 +39,7 @@ const About = () => {
                     <div>
                         <p>I'm Utsha and I Know Some Interesting Tecnology <span style={{color: '#008bff', fontWeight: 'bold'}}>{text} <Cursor/></span></p>
                         <p>
-                            I am a passionate Front End Developer with knowing some famous frameworks. I love working on chanllenging projects with learning something new and writting clean code. I want to retain and enhance my skills by working at an Institute. My keen interest in learning new technology
+                            I am a passionate Front End Developer with knowing some famous frameworks. I love working on challenging projects with learning something new and writing clean code. I want to retain and enhance my skills by working at an Institute. My keen interest in learning new technology
                         </p>
                     </div>
                 </div>

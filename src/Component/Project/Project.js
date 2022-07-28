@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Project = () => {
     return (
-        <div className='py-10'>
+        <div className='pt-20 pb-10'>
             <h1 className='text-4xl font-bold text-center'>Project</h1>
             <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-4 py-10'>
                 <div className='py-3.5 px-5 bg-zinc-900 text-slate-400  shadow-slate-400 border-0 rounded-lg' >
