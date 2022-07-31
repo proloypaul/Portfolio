@@ -13,6 +13,7 @@
     -o-animation: textSlide 8s linear infinite;
     overflow: hidden;
 }
+
 .navSmallStyle{
     display: none;
 }
@@ -33,7 +34,7 @@ nav .navMobile{
 .active{
     border-bottom: 2px solid #008bff;
     color: #008bff;
-    padding-bottom: 10px;
+    padding-bottom: 12px;
 }
 
 @keyframes textSlide {
@@ -48,6 +49,7 @@ nav .navMobile{
     }
     
 }
+
 
 @media (max-width: 768px) {
     .navMobile{
@@ -73,7 +75,7 @@ nav .navMobile{
     .active{
         border-bottom: 2px solid #008bff;
         color: #008bff;
-        padding-bottom: 10px;
+        padding-bottom: 12px;
     }
     /* skill component design */
     .skillNavMobile{

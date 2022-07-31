@@ -11,7 +11,7 @@
 }
 
 .commonBtnOne{
-    padding: 10px 30px;
+    padding: 5px 25px;
     font-size: 20px;
     font-weight: bold;
     border: 2px solid #fff;
@@ -20,7 +20,7 @@
     transition: all 0.7s ease-in-out;
 }
 .commonBtnTwo{
-    padding: 10px 30px;
+    padding: 5px 25px;
     font-size: 20px;
     font-weight: bold;
     border-bottom: 5px solid #008bff;

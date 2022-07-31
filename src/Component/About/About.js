@@ -18,7 +18,9 @@ const About = () => {
       console.log("clicked ", clicked)
     return (
         <div className='py-10'>
-            <h1 className='text-4xl font-bold'>About Me</h1>
+            <div className='textAnimationTwo'>
+                <h1 className='text-4xl font-bold'>About Me</h1>
+            </div>
             <div className='lg:flex  lg:justify-between  py-5'>
                 <div className='w-full'>
                     <img src='https://i.ibb.co/GvYtn28/pic2-removebg-preview.png' alt='Empty!' className=' w-1/2 border-2 rounded-full'/>

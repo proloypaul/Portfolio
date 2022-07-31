@@ -32,10 +32,10 @@ const Banner = () => {
                     </div>
                     <div className='pt-5 flex justify-center items-center lg:relative'>
                         <div className='lg:fixed'>
-                            <div><a href='https://github.com/proloypaul/' className='text-3xl hover:text-blue-500'><AiOutlineGithub/></a></div>
-                            <div className='py-4'><a href='https://github.com/proloypaul/' className='text-3xl hover:text-blue-500'><BsLinkedin/></a></div>
-                            <div className='pb-4'><a href='https://github.com/proloypaul/' className='text-3xl hover:text-blue-500'><AiOutlineTwitter/></a></div>
-                            <div><a href='https://github.com/proloypaul/' className='text-3xl pt-2 hover:text-blue-500'><BsInstagram/></a></div>
+                            <div><a href='https://github.com/proloypaul/' className='transition ease-in-out delay-100 text-3xl hover:text-blue-500 hover:text-4xl duration-300 '><AiOutlineGithub/></a></div>
+                            <div className='py-4'><a href='https://github.com/proloypaul/' className='transition ease-in-out delay-100 text-3xl hover:text-blue-500 hover:text-4xl duration-300'><BsLinkedin/></a></div>
+                            <div className='pb-4'><a href='https://github.com/proloypaul/' className='transition ease-in-out delay-100 text-3xl hover:text-blue-500 hover:text-4xl duration-300'><AiOutlineTwitter/></a></div>
+                            <div><a href='https://github.com/proloypaul/' className='transition ease-in-out delay-100 text-3xl hover:text-blue-500 hover:text-4xl duration-300'><BsInstagram/></a></div>
                         </div>
                     </div>
                 </div>
