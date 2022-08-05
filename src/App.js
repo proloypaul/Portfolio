@@ -6,6 +6,7 @@ import ProgrammingSkill from './Component/About/Skill/ProgrammingSkill';
 import Tools from './Component/About/Skill/Tools';
 import WebSkill from './Component/About/Skill/WebSkill';
 import Blogs from './Component/Blogs/Blogs';
+import Contact from './Component/Contact/Contact';
 import Footer from './Component/Footer/Footer';
 import Home from './Component/Home/Home';
 import Navbar from './Component/Home/Navbar';
@@ -32,6 +33,7 @@ function App() {
           </Route>
           <Route path="/project" element={<Project/>}/>
           <Route path="/blogs" element={<Blogs/>}/>
+          <Route path="/contact" element={<Contact/>}/>
         </Routes>
         <Footer></Footer>
       </BrowserRouter>

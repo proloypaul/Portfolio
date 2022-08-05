@@ -8,7 +8,14 @@ import { Link } from 'react-router-dom';
 const Project = () => {
     return (
         <div className='pt-20 pb-10'>
-            <h1 className='text-4xl font-bold text-center'>Project</h1>
+            <h1 className='text-4xl font-bold'>Project</h1>
+            <div className='text-xl text-center text-slate-400 pt-10 pb-5'>
+                <p><span className='text-white font-bold'>Welcome,</span> introducing to my project</p>
+                <p>Here is my personal project</p>
+                <p> made by own idea!</p>
+                <p>FrontEnd and BackEnd</p>
+                <p>click <span className='text-blue-500 font-bold underline'>Details</span></p>
+            </div>
             <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-4 py-10'>
                 <div className='py-3.5 px-5 bg-zinc-900 text-slate-400  shadow-slate-400 border-0 rounded-lg' >
                     <h1 className='font-bold text-3xl'>CarEbiDco_Web</h1>
