@@ -12,6 +12,7 @@ import Home from './Component/Home/Home';
 import Navbar from './Component/Home/Navbar';
 import Project from './Component/Project/Project';
 import Particle from './AnimationsCom/Particle';
+import CursorAnimation from './AnimationsCom/CursorAnimation';
 
 
 function App() {
@@ -22,6 +23,10 @@ function App() {
       {/* particles start */}
         <Particle/>
       {/* particles finshed */}
+      {/* animated cursor start */}
+        <CursorAnimation/>
+      {/* animated cursor finshed */}
+
         <Navbar></Navbar>
         <Routes>
           <Route path="/" element={<Home/>}/>
