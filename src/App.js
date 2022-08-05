@@ -11,6 +11,7 @@ import Footer from './Component/Footer/Footer';
 import Home from './Component/Home/Home';
 import Navbar from './Component/Home/Navbar';
 import Project from './Component/Project/Project';
+import Particle from './AnimationsCom/Particle';
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
     <div className='font-mono'>
       <BrowserRouter>
       {/* particles start */}
-      
+        <Particle/>
       {/* particles finshed */}
         <Navbar></Navbar>
         <Routes>
