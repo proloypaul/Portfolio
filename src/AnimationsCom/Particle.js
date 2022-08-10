@@ -33,7 +33,7 @@ const Particle = () => {
                 interactivity: {
                 events: {
                     onClick: {
-                    enable: true,
+                    enable: false,
                     mode: "push",
                     },
                     onHover: {
@@ -48,18 +48,18 @@ const Particle = () => {
                     },
                     repulse: {
                     distance: 200,
-                    duration: 0.4,
+                    duration: 0.2,
                     },
                 },
                 },
                 particles: {
                 color: {
-                    value: "#ffffff",
+                    value: "#fff",
                 },
                 links: {
-                    color: "#ffffff",
+                    color: "#008bff",
                     distance: 150,
-                    enable: false,
+                    enable: true,
                     opacity: 0.3,
                     width: 1,
                 },
@@ -67,7 +67,7 @@ const Particle = () => {
                     enable: true,
                 },
                 move: {
-                    direction: "bottom",
+                    direction: "",
                     enable: true,
                     outModes: {
                     default: "bounce",
@@ -90,7 +90,7 @@ const Particle = () => {
                     type: "circle",
                 },
                 size: {
-                    value: { min: 1, max: 2},
+                    value: { min: 1, max: 5},
                 },
                 },
                 detectRetina: true,

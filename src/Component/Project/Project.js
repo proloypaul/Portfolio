@@ -16,8 +16,8 @@ const Project = () => {
                 <p>FrontEnd and BackEnd</p>
                 <p>click <span className='text-blue-500 font-bold underline'>Details</span></p>
             </div>
-            <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-4 py-10'>
-                <div className='py-3.5 px-5 bg-zinc-900 text-slate-400  shadow-slate-400 border-0 rounded-lg' >
+            <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-4 py-10 projectBoxs'>
+                <div className='py-3.5 px-5 bg-zinc-900 text-slate-400 border-0 rounded-lg hover:shadow-lg hover:shadow-slate-400' >
                     <h1 className='font-bold text-3xl'>CarEbiDco_Web</h1>
                     <a href='lkfldksjfkdjfkd' className='my-10 py-5 mx-16 border-0 rounded-md text-white font-bold text-xl flex justify-center items-center text-slate-400 cursor-pointer hover:underline' style={{backgroundColor: '#008bff'}}>Visit<span className='animate-bounce'><IoIosOpen/></span></a>
                     <div>
@@ -34,7 +34,7 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                <div className='py-3.5 px-5 bg-zinc-900 text-slate-400  shadow-slate-400 border-0 rounded-lg' >
+                <div className='py-3.5 px-5 bg-zinc-900 text-slate-400 border-0 rounded-lg hover:shadow-lg hover:shadow-slate-400' >
                     <h1 className='font-bold text-3xl'>CarEbiDco_Web</h1>
                     <a href='lkfldksjfkdjfkd' className='my-10 py-5 mx-16 border-0 rounded-md text-white font-bold text-xl flex justify-center items-center text-slate-400 cursor-pointer hover:underline' style={{backgroundColor: '#008bff'}}>Visit <span className='animate-bounce'><IoIosOpen/></span></a>
                     <div>
@@ -51,7 +51,7 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                <div className='py-3.5 px-5 bg-zinc-900 text-slate-400  shadow-slate-400 border-0 rounded-lg' >
+                <div className='py-3.5 px-5 bg-zinc-900 text-slate-400 border-0 rounded-lg hover:shadow-lg hover:shadow-slate-400 ' >
                     <h1 className='font-bold text-3xl'>CarEbiDco_Web</h1>
                     <a href='lkfldksjfkdjfkd' className='my-10 py-5 mx-16 border-0 rounded-md text-white font-bold text-xl flex justify-center items-center text-slate-400 cursor-pointer hover:underline' style={{backgroundColor: '#008bff'}}>Visit <span className='animate-bounce'><IoIosOpen/></span></a>
                     <div>
