@@ -5,6 +5,8 @@ import {AiOutlineTwitter} from 'react-icons/ai';
 import {BsInstagram} from 'react-icons/bs';
 import {IoIosOpen} from 'react-icons/io';
 import {AiOutlineSelect} from 'react-icons/ai';
+import homeImgOne from '../../../../src/images/homeImg.png';
+// import favicon from '../../../../src/images/favicon.svg';
 import './Banner.css';
 
 const Banner = () => {
@@ -28,7 +30,7 @@ const Banner = () => {
                 </div>
                 <div className='flex'>
                     <div>
-                        <img src='https://i.ibb.co/wW217bP/homeImg.png' alt='Empty' width='300px' height='400px'/>
+                        <img src={homeImgOne} alt='Empty' width='300px' height='400px'/>
                     </div>
                     <div className='pt-5 flex justify-center items-center lg:relative'>
                         <div className='lg:fixed'>
@@ -43,5 +45,4 @@ const Banner = () => {
         </div>
     );
 };
-
 export default Banner;

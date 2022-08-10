@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import Skill from './Skill/Skill';
+import homeImgTwo from '../../../src/images/homeImgTwo.png'
 
 
 
@@ -23,7 +24,7 @@ const About = () => {
             </div>
             <div className='lg:flex  lg:justify-between  py-5'>
                 <div className='w-full'>
-                    <img src='https://i.ibb.co/GvYtn28/pic2-removebg-preview.png' alt='Empty!' className=' w-1/2 border-2 rounded-full'/>
+                    <img src={homeImgTwo} alt='Empty!' className=' w-1/2 border-2 rounded-full'/>
                     <div className='pt-5'>
                         <div>
                             <h1><span className='text-slate-400 font-bold text-xl'>__Name</span>: Utsha Kumar Paul</h1>
