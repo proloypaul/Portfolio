@@ -7,6 +7,7 @@ import {IoIosOpen} from 'react-icons/io';
 import {AiOutlineSelect} from 'react-icons/ai';
 import homeImgOne from '../../../../src/images/homeImg.png';
 import './Banner.css';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
    
@@ -23,7 +24,7 @@ const Banner = () => {
                     </div>
                     <div className='py-5 pt-12 flex'>
                         <a href='lkdjflk' target='_blank' className='commonBtnTwo mr-3.5 flex justify-between items-center'>Resume <IoIosOpen/></a>
-                        <a href='llkdklfd' className='commonBtnTwo flex justify-between items-center'>Contact<AiOutlineSelect/></a>
+                        <Link to='/contact' className='commonBtnTwo flex justify-between items-center'>Contact<AiOutlineSelect/></Link>
                     </div>
                     
                 </div>

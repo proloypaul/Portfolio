@@ -10,32 +10,52 @@ const Contact = () => {
     const handleStepPrevious = () => {
         setNextStep(--nextStep)
     }
-
-    console.log("step number: " + nextStep)
+    // console.log("step number: " + nextStep)
     return (
-        <div className='pt-20 pb-10'>
-            <h1 className='text-4xl font-bold'>Contact</h1>
-            <div className='py-40 text-center'>
-                {/* { nextStep == 0? <div>
-                    <button className='contactBtn mt-5 mr-2'>Get In Touch</button>
-                    <span>click Here &#8626;</span>
-                </div>:nextStep == 1? <div>
-                    <button className='contactBtn mt-5 mr-2'>next 1</button>
-                    <span>click Here &#8626;</span>
-                </div>: nextStep ==2 ? <div>
-                    <button className='contactBtn mt-5 mr-2'>next 2</button>
-                    <span>click Here &#8626;</span>
-                </div>: <div>Well done</div>} */}
-                <div className='text-center'>
+        <div className='pb-10'>
+            <div className='pt-20 pb-20 contactContent'>
+                { nextStep === 0? <div className='text-center'>
                     <h1 className='text-6xl font-bold'>Hello !</h1>
-                    <button className='contactBtn mt-5 mr-2'>Get In Touch</button>
-                    <span>click Here &#8626;</span>
+                    <button className='contactBtn mt-5 mr-2' onClick={() => handleStepNext()}>Get In Touch</button>
+                    <span>click Here <span className='text-blue-400'>&#8626;</span></span>
                     <p className='pt-2'>&#128337;Takes 1 minute</p>
-                </div>
+                </div>:nextStep === 1? <div className='text-center'>
+                    <div className='text-2xl'>{nextStep}<span className='text-blue-400 pt-4'>&rarr;</span> Thanks for reaching out. What's your name ?</div>
+                    <div className='py-2'>
+                        <input className='inputStyle' placeholder='Enter Your Name' type="text" required/>
+                    </div>
+                    <div className=''>
+                        <button className='contactBtn mt-5 mr-2'onClick={() => handleStepNext()}>Ok</button>
+                        <span>click Okay <span className='text-blue-400'>&#8626;</span></span>
+                    </div>
+                </div>: nextStep === 2 ? <div className='text-center'>
+                    <div className='text-2xl'>{nextStep}<span className='text-blue-400 pt-4'>&rarr;</span> Give us your email.</div>
+                    <div className='py-2'>
+                        <input className='inputStyle' placeholder='abc@gamil.com' type="email" required/>
+                    </div>
+                    <div className=''>
+                        <button className='contactBtn mt-5 mr-2'onClick={() => handleStepNext()}>Ok</button>
+                        <span>click Okay <span className='text-blue-400'>&#8626;</span></span>
+                    </div>
+                </div>: nextStep === 3? <div className='text-center'>
+                    <div className='text-2xl'>{nextStep}<span className='text-blue-400 pt-4'>&rarr; </span>Enter your phone number</div>
+                    <div className='py-2'>
+                        <input className='inputStyle' placeholder='Enter Number' type="number" required/>
+                    </div>
+                    <div className=''>
+                        <button className='contactBtn mt-5 mr-2' onClick={() => handleStepNext()} type="submit">Submit</button>
+                        <span>click Submit <span className='text-blue-400'>&#8626;</span></span>
+                    </div>
+                </div>: nextStep === 4? <div className='text-center'>
+                    <h1 className='text-3xl'>well done! Successfully submited</h1>
+                    <p className='py-2 text-2xl font-bold'>Contact With Me</p>
+                    <p className='animate-bounce mt-5'><span className='bg-blue-500 font-bold p-2 border-0 rounded-full text-xl'>&darr;</span></p>
+                </div>: 0 > nextStep ? setNextStep(0) : setNextStep(0)}
+                
             </div>
             <div className='text-right'>
-                <button className='contactBtn mr-2' onClick={() => handleStepNext()}>next</button>
-                <button className='contactBtn' onClick={() => handleStepPrevious()}>previus</button>
+                <button className='contactBtn mr-2' onClick={() => handleStepNext()}>Next &#8827;</button>
+                <button className='contactBtn' onClick={() => handleStepPrevious()}>&#8826; Previus</button>
             </div>
         </div>
     );

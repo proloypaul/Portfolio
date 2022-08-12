@@ -70,7 +70,7 @@ const Project = () => {
                 </div>
             </div>
             <div>
-                <h1 className='text-xl font-bold flex justify-center items-center cursor-pointer animate-bounce'><span className='text-2xl text-blue-500'><AiFillDownCircle/></span> See more</h1>
+                <h1 className='text-xl font-bold flex justify-center items-center cursor-pointer animate-bounce mt-5'><span className='text-2xl text-blue-500'><AiFillDownCircle/></span> See more</h1>
             </div>
         </div>
     );

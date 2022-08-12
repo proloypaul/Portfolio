@@ -21,7 +21,7 @@ function App() {
     <div className='font-mono'>
       <BrowserRouter>
       {/* particles start */}
-        <Particle/>
+        {/* <Particle/> */}
       {/* particles finshed */}
       {/* animated cursor start */}
         <CursorAnimation/>
