@@ -6,7 +6,6 @@ import {BsInstagram} from 'react-icons/bs';
 import {IoIosOpen} from 'react-icons/io';
 import {AiOutlineSelect} from 'react-icons/ai';
 import homeImgOne from '../../../../src/images/homeImg.png';
-// import favicon from '../../../../src/images/favicon.svg';
 import './Banner.css';
 
 const Banner = () => {

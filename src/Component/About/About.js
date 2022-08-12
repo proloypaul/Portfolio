@@ -16,7 +16,7 @@ const About = () => {
         setClicked(isClicked)
       }
 
-      console.log("clicked ", clicked)
+    //   console.log("clicked ", clicked)
     return (
         <div className='py-10'>
             <div className='textAnimationTwo'>

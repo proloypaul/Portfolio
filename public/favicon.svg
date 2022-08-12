@@ -4,14 +4,14 @@
       stroke-width: 8px;
       stroke: #8929ff;
     }
-    #skull-outline { fill: #808080 }
+    #skull-outline { fill: #000000 }
     #eyes-and-nose, #hat-outline { fill: #8929ff }
     #hat-fill, #hat-bill { fill: #008bff }
     @media (prefers-color-scheme: dark) {
       .favicon-stroke { stroke: #343a40 }
       #skull-outline { fill: #808080}
       #hat-outline { fill: #343a40 }
-      #eyes-and-nose { fill: #343a40 }
+      #eyes-and-nose { fill: #fff }
     }
   </style>
   <g id="skull">

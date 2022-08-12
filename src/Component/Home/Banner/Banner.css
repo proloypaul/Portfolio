@@ -60,7 +60,17 @@
     color: #008bff;
 }
 
-
+/* Contact section design start */
+.contactBtn{
+    padding: 5px 15px;
+    background: #008bff;
+    color:#fff;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* Contact section design fineshed*/
 
 @keyframes animate {
     0%{margin-top: -200px;}
