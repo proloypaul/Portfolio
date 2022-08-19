@@ -10,6 +10,10 @@ const Contact = () => {
     const handleStepPrevious = () => {
         setNextStep(--nextStep)
     }
+
+    const  handleSuccessMsg = () => {
+        setNextStep(6)
+    }
     // console.log("step number: " + nextStep)
     return (
         <div className='pb-10'>
@@ -43,10 +47,10 @@ const Contact = () => {
                         <input className='inputStyle' placeholder='Enter Number' type="number" required/>
                     </div>
                     <div className=''>
-                        <button className='contactBtn mt-5 mr-2' onClick={() => handleStepNext()} type="submit">Submit</button>
+                        <button className='contactBtn mt-5 mr-2' onClick={() => handleSuccessMsg()} type="submit">Submit</button>
                         <span>click Submit <span className='text-blue-400'>&#8626;</span></span>
                     </div>
-                </div>: nextStep === 4? <div className='text-center'>
+                </div>: nextStep === 6? <div className='text-center'>
                     <h1 className='text-3xl'>well done! Successfully submited</h1>
                     <p className='py-2 text-2xl font-bold'>Contact With Me</p>
                     <p className='animate-bounce mt-5'><span className='bg-blue-500 font-bold p-2 border-0 rounded-full text-xl'>&darr;</span></p>

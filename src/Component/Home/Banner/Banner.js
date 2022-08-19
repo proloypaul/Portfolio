@@ -16,11 +16,11 @@ const Banner = () => {
             <div className='lg:flex lg:justify-between'>
                 <div>
                     <p className='text-xl uppercase py-5 text-slate-400'>Welcome to my world</p>
-                    <h1 className='text-6xl font-black pt-5'>Hi, I'm Utsha</h1>
+                    <h1 className='sm:text-4xl lg:text-6xl font-black pt-5'>Hi, I'm Utsha</h1>
                     <div className='slideUp' style={{color: '#008bff', }}>
-                        <h1 className='text-6xl font-black' >Programmer.</h1>
-                        <h1 className='text-6xl font-black'>Junior Developer.</h1>
-                        <h1 className='text-6xl font-black' >Frontend Dev.</h1>
+                        <h1 className='sm:text-4xl lg:text-6xl font-black' >Programmer.</h1>
+                        <h1 className='sm:text-4xl lg:text-6xl font-black'>Junior Developer.</h1>
+                        <h1 className='sm:text-4xl lg:text-6xl font-black' >Frontend Dev.</h1>
                     </div>
                     <div className='py-5 pt-12 flex'>
                         <a href='lkdjflk' target='_blank' className='commonBtnTwo mr-3.5 flex justify-between items-center'>Resume <IoIosOpen/></a>
