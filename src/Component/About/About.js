@@ -5,6 +5,7 @@ import homeImgTwo from '../../../src/images/homeImgTwo.png'
 
 
 
+
 const About = () => {
     const [clicked, setClicked] = useState(false)
     const {text} = useTypewriter({
@@ -50,8 +51,8 @@ const About = () => {
             <div className='py-5'>
                 <div className='py-5'>
                     <ul className='flex cursor-pointer font-bold text-2xl'>
-                        <li className='mr-10 hover:text-blue-500 hover:border-b-2 hover:border-blue-500' onClick={() => handleClick(false)}><span className={clicked? "":"text-blue-500 border-b-2 border-blue-500"}>Main Skills</span></li>
-                        <li className='hover:text-blue-500 hover:border-b-2 hover:border-blue-500' onClick={() => handleClick(true)}><span className={clicked?"text-blue-500 border-b-2 border-blue-500": ''}>Education</span></li>
+                        <li className='mr-10 hover:text-blue-500 hover:tracking-widest hover:border-blue-500 hover:transition-all' onClick={() => handleClick(false)}><span className={clicked? "":"text-blue-500 tracking-widest border-blue-500"}>Main Skills</span></li>
+                        <li className='hover:text-blue-500 hover:tracking-widest hover:border-blue-500 hover:transition-all' onClick={() => handleClick(true)}><span className={clicked?"text-blue-500 tracking-widest border-blue-500": ''}>Education</span></li>
                     </ul>
                 </div>
                 {clicked ?  <div className='text-xl font-bold text-slate-200'>

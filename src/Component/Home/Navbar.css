@@ -27,14 +27,17 @@ nav .navMobile{
     padding-bottom: 10px;
 }
 .navMobile li:hover{
-    border-bottom: 2px solid #008bff;
+    /* border-bottom: 2px solid #008bff; */
     color: #008bff;
+    letter-spacing: 2px;
+    
 }
 
 .active{
-    border-bottom: 2px solid #008bff;
+    /* border-bottom: 2px solid #008bff; */
     color: #008bff;
-    padding-bottom: 12px;
+    letter-spacing: 2px;
+    /* padding-bottom: 12px; */
 }
 
 @keyframes textSlide {
@@ -69,13 +72,15 @@ nav .navMobile{
         transition: all 0.5s ease-in-out;
     }
     li:hover{
-        border-bottom: 4px solid #008bff;
+        /* border-bottom: 4px solid #008bff; */
         color: #008bff;
+        letter-spacing: 2px;
     }
     .active{
-        border-bottom: 2px solid #008bff;
+        /* border-bottom: 2px solid #008bff; */
         color: #008bff;
-        padding-bottom: 12px;
+        letter-spacing: 2px;
+        /* padding-bottom: 12px; */
     }
     /* skill component design */
     .skillNavMobile{
