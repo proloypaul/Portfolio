@@ -72,8 +72,8 @@ const Particle = () => {
                     outModes: {
                     default: "bounce",
                     },
-                    random: true,
-                    speed: 4,
+                    random: false,
+                    speed: 2,
                     straight: false,
                 },
                 number: {

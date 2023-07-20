@@ -18,8 +18,8 @@ const Banner = () => {
                     <p className='text-xl uppercase py-5 text-slate-400'>Welcome to my world</p>
                     <h1 className='sm:text-4xl lg:text-6xl font-black pt-5'>Hi, I'm Utsha</h1>
                     <div className='slideUp' style={{color: '#008bff', }}>
-                        <h1 className='sm:text-4xl lg:text-6xl font-black' >Programmer.</h1>
-                        <h1 className='sm:text-4xl lg:text-6xl font-black'>Junior Developer.</h1>
+                        <h1 className='sm:text-4xl lg:text-6xl font-black' >MERN Dev.</h1>
+                        <h1 className='sm:text-4xl lg:text-6xl font-black'>Junior Dev.</h1>
                         <h1 className='sm:text-4xl lg:text-6xl font-black' >Frontend Dev.</h1>
                     </div>
                     <div className='py-5 pt-12 flex'>
@@ -29,7 +29,7 @@ const Banner = () => {
                     
                 </div>
                 <div className='flex'>
-                    <div>
+                    <div className='p'>
                         <img src={homeImgOne} alt='Empty' width='300px' height='400px'/>
                     </div>
                     <div className='pt-5 flex justify-center items-center lg:relative'>

@@ -22,7 +22,7 @@ const Navbar = () => {
         <div>
             <nav className='flex justify-between items-center py-5'>
                 <div className='textAnimation flex justify-center items-center'>
-                    <h1 className='text-4xl font-black'>UtshaPaul</h1>
+                    <h1 className='text-4xl font-black'>Utsha.dev</h1>
                 </div>
                 <div>
                     <div onClick={() => handleBar(clicked)} className='sm:flex lg:hidden text-3xl '>{clicked ?<GoThreeBars/> : <AiFillCloseCircle/>}</div>
