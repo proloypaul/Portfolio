@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import Skill from './Skill/Skill';
-import homeImgTwo from '../../../src/images/homeImgTwo.png'
+import homeImgTwo from '../../../src/images/homeImgThree.png'
 
 
 
@@ -25,7 +25,7 @@ const About = () => {
             </div>
             <div className='lg:flex  lg:justify-between  py-5'>
                 <div className='w-full'>
-                    <img src={homeImgTwo} alt='Empty!' className=' w-1/2 border-2 rounded-full'/>
+                    <img src={homeImgTwo} alt='Empty!'width='250px' height='200px' className='border-2 rounded-full'/>
                     <div className='pt-5'>
                         <div>
                             <h1><span className='text-slate-400 font-bold text-xl'>__Name</span>: Utsha Kumar Paul</h1>
@@ -43,7 +43,7 @@ const About = () => {
                     <div>
                         <p>I'm Utsha and I Know Some Interesting Tecnology <span style={{color: '#008bff', fontWeight: 'bold'}}>{text} <Cursor/></span></p>
                         <p>
-                            I am a passionate Front End Developer with knowing some famous frameworks. I love working on challenging projects with learning something new and writing clean code. I want to retain and enhance my skills by working at an Institute. My keen interest in learning new technology
+                            I am a passionate Front End Developer with knowing some famous frameworks. I love working on challenging projects with learning something new and writing clean code. I want to retain and enhance my skills by working at a company. My keen interest in learning new technology
                         </p>
                     </div>
                 </div>

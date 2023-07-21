@@ -1,11 +1,11 @@
 import React from 'react';
 import {AiOutlineGithub} from 'react-icons/ai';
 import {BsLinkedin} from 'react-icons/bs';
-import {AiOutlineTwitter} from 'react-icons/ai';
-import {BsInstagram} from 'react-icons/bs';
+import {BsFacebook} from 'react-icons/bs';
+import {SiHackerrank} from 'react-icons/si';
 import {IoIosOpen} from 'react-icons/io';
 import {AiOutlineSelect} from 'react-icons/ai';
-import homeImgOne from '../../../../src/images/homeImg.png';
+import homeImgFour from '../../../../src/images/homeImgFour.png';
 import './Banner.css';
 import { Link } from 'react-router-dom';
 
@@ -30,14 +30,14 @@ const Banner = () => {
                 </div>
                 <div className='flex'>
                     <div className='p'>
-                        <img src={homeImgOne} alt='Empty' width='300px' height='400px'/>
+                        <img src={homeImgFour} alt='Empty' width='300px' height='400px'/>
                     </div>
                     <div className='pt-5 flex justify-center items-center lg:relative'>
                         <div className='lg:fixed'>
                             <div><a href='https://github.com/proloypaul/' className='transition ease-in-out delay-100 text-3xl hover:text-blue-500 hover:text-4xl duration-300 '><AiOutlineGithub/></a></div>
-                            <div className='py-4'><a href='https://github.com/proloypaul/' className='transition ease-in-out delay-100 text-3xl hover:text-blue-500 hover:text-4xl duration-300'><BsLinkedin/></a></div>
-                            <div className='pb-4'><a href='https://github.com/proloypaul/' className='transition ease-in-out delay-100 text-3xl hover:text-blue-500 hover:text-4xl duration-300'><AiOutlineTwitter/></a></div>
-                            <div><a href='https://github.com/proloypaul/' className='transition ease-in-out delay-100 text-3xl hover:text-blue-500 hover:text-4xl duration-300'><BsInstagram/></a></div>
+                            <div className='py-4'><a href='https://www.linkedin.com/in/utsha-kumar-paul/'  className='transition ease-in-out delay-100 text-3xl hover:text-blue-500 hover:text-4xl duration-300' ><BsLinkedin/></a></div>
+                            <div className='pb-4'><a href='https://www.facebook.com/ukp.proloy' className='transition ease-in-out delay-100 text-3xl hover:text-blue-500 hover:text-4xl duration-300'><BsFacebook/></a></div>
+                            <div><a href='https://www.hackerrank.com/proloyp23?hr_r=1' className='transition ease-in-out delay-100 text-3xl hover:text-blue-500 hover:text-4xl duration-300'><SiHackerrank/></a></div>
                         </div>
                     </div>
                 </div>
