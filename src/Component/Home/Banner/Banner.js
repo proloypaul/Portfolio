@@ -23,7 +23,7 @@ const Banner = () => {
                         <h1 className='sm:text-4xl lg:text-6xl font-black' >Frontend Dev.</h1>
                     </div>
                     <div className='py-5 pt-12 flex'>
-                        <a href='lkdjflk' target='_blank' className='commonBtnTwo mr-3.5 flex justify-between items-center'>Resume <IoIosOpen/></a>
+                        <a href='https://drive.google.com/file/d/1y-G2gvl13tVpP3dSEp_8p8zoQA9D7QjH/view?usp=sharing' target='_blank' rel='noreferrer' className='commonBtnTwo mr-3.5 flex justify-between items-center'>Resume <IoIosOpen/></a>
                         <Link to='/contact' className='commonBtnTwo flex justify-between items-center'>Contact<AiOutlineSelect/></Link>
                     </div>
                     
@@ -34,10 +34,10 @@ const Banner = () => {
                     </div>
                     <div className='pt-5 flex justify-center items-center lg:relative'>
                         <div className='lg:fixed'>
-                            <div><a href='https://github.com/proloypaul/' className='transition ease-in-out delay-100 text-3xl hover:text-blue-500 hover:text-4xl duration-300 '><AiOutlineGithub/></a></div>
-                            <div className='py-4'><a href='https://www.linkedin.com/in/utsha-kumar-paul/'  className='transition ease-in-out delay-100 text-3xl hover:text-blue-500 hover:text-4xl duration-300' ><BsLinkedin/></a></div>
-                            <div className='pb-4'><a href='https://www.facebook.com/ukp.proloy' className='transition ease-in-out delay-100 text-3xl hover:text-blue-500 hover:text-4xl duration-300'><BsFacebook/></a></div>
-                            <div><a href='https://www.hackerrank.com/proloyp23?hr_r=1' className='transition ease-in-out delay-100 text-3xl hover:text-blue-500 hover:text-4xl duration-300'><SiHackerrank/></a></div>
+                            <div><a href='https://github.com/proloypaul/' target='_blank' rel='noreferrer' className='transition ease-in-out delay-100 text-3xl hover:text-blue-500 hover:text-4xl duration-300 '><AiOutlineGithub/></a></div>
+                            <div className='py-4'><a href='https://www.linkedin.com/in/utsha-kumar-paul/' target='_blank' rel='noreferrer'  className='transition ease-in-out delay-100 text-3xl hover:text-blue-500 hover:text-4xl duration-300' ><BsLinkedin/></a></div>
+                            <div className='pb-4'><a href='https://www.facebook.com/ukp.proloy' target='_blank' rel='noreferrer' className='transition ease-in-out delay-100 text-3xl hover:text-blue-500 hover:text-4xl duration-300'><BsFacebook/></a></div>
+                            <div><a href='https://www.hackerrank.com/proloyp23?hr_r=1' target='_blank' rel='noreferrer' className='transition ease-in-out delay-100 text-3xl hover:text-blue-500 hover:text-4xl duration-300'><SiHackerrank/></a></div>
                         </div>
                     </div>
                 </div>
