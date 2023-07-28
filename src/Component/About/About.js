@@ -9,7 +9,7 @@ import homeImgTwo from '../../../src/images/homeImgThree.png'
 const About = () => {
     const [clicked, setClicked] = useState(false)
     const {text} = useTypewriter({
-        words: ['Javascript', 'React', 'React-router-dom', 'Tailwind', 'Material-Ui', 'Boostrap', 'Mongodb', 'Express.js', 'Html5', 'CSS3'],
+        words: ['Javascript', 'React', 'React-router-dom', 'Mongoose', 'Express.js', 'Typescript', 'Mongodb'],
         loop: 0, // Infinit
       })
 
@@ -41,7 +41,8 @@ const About = () => {
                 </div>
                 <div className='w-full flex items-center justify-center text-xl leading-6 text-slate-400'>
                     <div>
-                        <p>I'm Utsha and I Know Some Interesting Tecnology <span style={{color: '#008bff', fontWeight: 'bold'}}>{text} <Cursor/></span></p>
+                        <p>I'm Utsha and I Know Some Interesting Tecnology</p>
+                        <p><span style={{color: '#008bff', fontWeight: 'bold'}}>{text} <Cursor/></span></p>
                         <p>
                             I am a passionate Front End Developer with knowing some famous frameworks. I love working on challenging projects with learning something new and writing clean code. I want to retain and enhance my skills by working at a company. My keen interest in learning new technology
                         </p>
