@@ -75,8 +75,8 @@ const Contact = () => {
                 
             </div>
             <div className='text-right'>
-                <button className='contactBtn mr-2' onClick={() => handleStepNext()}>Next &#8827;</button>
-                <button className='contactBtn' onClick={() => handleStepPrevious()}>&#8826; Previus</button>
+                <button data-aos="flip-left" className='contactBtn mr-2' onClick={() => handleStepNext()}>Next &#8827;</button>
+                <button data-aos="flip-right" className='contactBtn' onClick={() => handleStepPrevious()}>&#8826; Previus</button>
             </div>
         </div>
     );

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import Skill from './Skill/Skill';
-import homeImgTwo from '../../../src/images/homeImgThree.png'
+import homeImgTwo from '../../../src/images/aboutAvatar.gif'
 
 
 
@@ -21,11 +21,11 @@ const About = () => {
     return (
         <div className='py-10'>
             <div className='textAnimationTwo'>
-                <h1 className='text-4xl font-bold'>About Me</h1>
+                <h1 className='text-4xl font-bold pb-10'>About Me</h1>
             </div>
             <div className='lg:flex  lg:justify-between  py-5'>
                 <div className='w-full'>
-                    <img src={homeImgTwo} alt='Empty!'width='250px' height='200px' className='border-2 rounded-full'/>
+                    <img src={homeImgTwo} alt='Empty!'width='250px' height='200px'/>
                     <div className='pt-5'>
                         <div>
                             <h1><span className='text-slate-400 font-bold text-xl'>__Name</span>: Utsha Kumar Paul</h1>

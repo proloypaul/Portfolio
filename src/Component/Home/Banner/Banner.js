@@ -13,8 +13,10 @@ const Banner = () => {
    
     return (
         <div className='py-5'>
-            <div className='lg:flex lg:justify-between'>
-                <div>
+            <div className='lg:flex lg:justify-between pt-10'>
+                <div data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">
                     <p className='text-xl uppercase py-5 text-slate-400'>Welcome to my world</p>
                     <h1 className='sm:text-4xl lg:text-6xl font-black pt-5'>Hi, I'm Utsha</h1>
                     <div className='slideUp' style={{color: '#008bff', }}>
@@ -29,7 +31,8 @@ const Banner = () => {
                     
                 </div>
                 <div className='flex'>
-                    <div className='p'>
+                    <div className='p' data-aos="fade-up"
+                        data-aos-duration="3000">
                         <img src={homeImgFour} alt='Empty' width='300px' height='400px'/>
                     </div>
                     <div className='pt-5 flex justify-center items-center lg:relative'>

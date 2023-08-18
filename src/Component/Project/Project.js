@@ -17,7 +17,7 @@ const Project = () => {
                 <p>click <span className='text-blue-500 font-bold underline'>Details</span></p>
             </div>
             <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-4 py-10 projectBoxs'>
-                <div className='py-3.5 px-5 bg-zinc-900 text-slate-400 border-0 rounded-lg hover:shadow-lg hover:shadow-slate-400' >
+                <div data-aos="flip-right" className='py-3.5 px-5 bg-zinc-900 text-slate-400 border-0 rounded-lg hover:shadow-lg hover:shadow-slate-400' >
                     <h1 className='font-bold text-3xl'>belly_food</h1>
                     <a href='https://belly-food-client.vercel.app/' target='_blank' rel='noreferrer' className='my-10 py-5 mx-16 border-0 rounded-md text-white font-bold text-xl flex justify-center items-center text-slate-400 cursor-pointer hover:underline' style={{backgroundColor: '#008bff'}}>Visit<span className='animate-bounce'><IoIosOpen/></span></a>
                     <div>
@@ -34,7 +34,7 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                <div className='py-3.5 px-5 bg-zinc-900 text-slate-400 border-0 rounded-lg hover:shadow-lg hover:shadow-slate-400' >
+                <div data-aos="zoom-in" className='py-3.5 px-5 bg-zinc-900 text-slate-400 border-0 rounded-lg hover:shadow-lg hover:shadow-slate-400' >
                     <h1 className='font-bold text-3xl'>E-smart</h1>
                     <a href='https://e-smarts.web.app/' target='_blank' rel='noreferrer' className='my-10 py-5 mx-16 border-0 rounded-md text-white font-bold text-xl flex justify-center items-center text-slate-400 cursor-pointer hover:underline' style={{backgroundColor: '#008bff'}}>Visit <span className='animate-bounce'><IoIosOpen/></span></a>
                     <div>
@@ -51,7 +51,7 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                <div className='py-3.5 px-5 bg-zinc-900 text-slate-400 border-0 rounded-lg hover:shadow-lg hover:shadow-slate-400 ' >
+                <div data-aos="flip-left" className='py-3.5 px-5 bg-zinc-900 text-slate-400 border-0 rounded-lg hover:shadow-lg hover:shadow-slate-400 ' >
                     <h1 className='font-bold text-3xl'>University Management</h1>
                     <a href='https://drive.google.com/file/d/1wkjWj3T8K1b9PcqiDL5m0QeU5YjcU_5l/view?usp=sharing' target='_blank' rel='noreferrer' className='my-10 py-5 mx-16 border-0 rounded-md text-white font-bold text-xl flex justify-center items-center text-slate-400 cursor-pointer hover:underline' style={{backgroundColor: '#008bff'}}>Visit <span className='animate-bounce'><IoIosOpen/></span></a>
                     <div>
