@@ -1,7 +1,6 @@
 import React from 'react';
 import {TbBrandReactNative} from 'react-icons/tb';
-import { SiMongodb } from 'react-icons/si';
-import {FaPython} from 'react-icons/fa';
+import { SiNextdotjs, SiRedux } from 'react-icons/si';
 
 const ProgrammingSkill = () => {
     return (
@@ -16,19 +15,19 @@ const ProgrammingSkill = () => {
                     </div>
                 </div>
                 <div data-aos="flip-up" className='py-3.5 px-5 bg-black text-white shadow-lg shadow-slate-400 border-0 rounded-lg' >
-                    <h1 className='font-bold text-2xl text-slate-400'>Mongoose</h1>
-                    <div className='py-3 text-9xl flex justify-center text-slate-400'><SiMongodb/></div>
+                    <h1 className='font-bold text-2xl text-slate-400'>Redux</h1>
+                    <div className='py-3 text-9xl flex justify-center text-slate-400'><SiRedux/></div>
                     <div>
                         <div className='w-3/5 h-2 border-0 rounded-lg' style={{backgroundColor: '#008bff'}}></div>
-                        <h1>60%</h1>
+                        <h1>50%</h1>
                     </div>
                 </div>
                 <div data-aos="flip-right" className='py-3.5 px-5 bg-black text-white shadow-lg shadow-slate-400 border-0 rounded-lg' >
-                    <h1 className='font-bold text-2xl text-slate-400'>Python</h1>
-                    <div className='py-3 text-9xl flex justify-center text-slate-400'><FaPython/></div>
+                    <h1 className='font-bold text-2xl text-slate-400'>Next</h1>
+                    <div className='py-3 text-9xl flex justify-center text-slate-400'><SiNextdotjs/></div>
                     <div>
                         <div className='w-3/5 h-2 border-0 rounded-lg' style={{backgroundColor: '#008bff'}}></div>
-                        <h1>60%</h1>
+                        <h1>50%</h1>
                     </div>
                 </div>
             </div>
