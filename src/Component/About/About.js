@@ -9,7 +9,7 @@ import homeImgTwo from '../../../src/images/aboutAvatar.gif'
 const About = () => {
     const [clicked, setClicked] = useState(false)
     const {text} = useTypewriter({
-        words: ['Javascript', 'React', 'React-router-dom', 'Mongoose', 'Express.js', 'Typescript', 'Mongodb'],
+        words: ['Javascript', 'React', 'Next', 'React-router-dom', 'Redux', 'Mongoose', 'Express.js', 'Typescript', 'Mongodb'],
         loop: 0, // Infinit
       })
 
@@ -21,10 +21,10 @@ const About = () => {
     return (
         <div className='py-10'>
             <div className='textAnimationTwo'>
-                <h1 className='text-4xl font-bold pb-10'>About Me</h1>
+                <h1 data-aos="fade-up" className='text-4xl font-bold pb-10 text-transparent bg-clip-text bg-gradient-to-r from-[#ffddca] to-[#08AEEA]'>About Me</h1>
             </div>
             <div className='lg:flex  lg:justify-between  py-5'>
-                <div className='w-full'>
+                <div data-aos="fade-down" className='w-full'>
                     <img src={homeImgTwo} alt='Empty!'width='250px' height='200px'/>
                     <div className='pt-5'>
                         <div>
@@ -34,14 +34,14 @@ const About = () => {
                         <div>
                             <h1><span className='text-slate-400 font-bold text-xl'>__Age</span>: 20</h1>
                             <h1><span className='text-slate-400 font-bold text-xl'>__Address</span>: Dhaka, Bangladesh</h1>
-                            <h1><span className='text-slate-400 font-bold text-xl'>__Profession</span>: Frontend Web development</h1>
+                            <h1><span className='text-slate-400 font-bold text-xl'>__Profession</span>: Frontend Developer</h1>
                         </div>
                         
                     </div>
                 </div>
-                <div className='w-full flex items-center justify-center text-xl leading-6 text-slate-400'>
+                <div className='w-full flex items-center justify-center text-xl leading-6 text-slate-400 pt-8 lg:pt-0'>
                     <div>
-                        <p>I'm Utsha and I Know Some Interesting Tecnology</p>
+                        <p>I'm Utsha Paul and I Know Some Interesting Tecnology</p>
                         <p><span style={{color: '#008bff', fontWeight: 'bold'}}>{text} <Cursor/></span></p>
                         <p>
                             I am a passionate Front End Developer with knowing some famous frameworks. I love working on challenging projects with learning something new and writing clean code. I want to retain and enhance my skills by working at a company. My keen interest in learning new technology
@@ -53,7 +53,7 @@ const About = () => {
                 <div className='py-5'>
                     <ul className='flex cursor-pointer font-bold text-2xl'>
                         <li className='mr-10 hover:text-blue-500 hover:tracking-widest hover:border-blue-500 hover:transition-all' onClick={() => handleClick(false)}><span className={clicked? "":"text-blue-500 tracking-widest border-blue-500"}>Main Skills</span></li>
-                        <li className='hover:text-blue-500 hover:tracking-widest hover:border-blue-500 hover:transition-all' onClick={() => handleClick(true)}><span className={clicked?"text-blue-500 tracking-widest border-blue-500": ''}>Education</span></li>
+                        <li data-aos="flip-left" className='hover:text-blue-500 hover:tracking-widest hover:border-blue-500 hover:transition-all' onClick={() => handleClick(true)}><span className={clicked?"text-blue-500 tracking-widest border-blue-500": ''}>Education</span></li>
                     </ul>
                 </div>
                 {clicked ?  <div className='text-xl font-bold text-slate-200'>
