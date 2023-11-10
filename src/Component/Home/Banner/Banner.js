@@ -5,19 +5,23 @@ import {BsFacebook} from 'react-icons/bs';
 import {SiHackerrank} from 'react-icons/si';
 import {IoIosOpen} from 'react-icons/io';
 import {AiOutlineSelect} from 'react-icons/ai';
+import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import homeImgFour from '../../../../src/images/homeImgFour.png';
 import './Banner.css';
 import { Link } from 'react-router-dom';
 
 const Banner = () => {
-   
+    const {text} = useTypewriter({
+        words: ['Welcome to my world'],
+        loop: 0, // Infinit
+      })
     return (
         <div className='py-5'>
             <div className='lg:flex lg:justify-between pt-10'>
                 <div data-aos="fade-down"
                     data-aos-easing="linear"
                     data-aos-duration="1500">
-                    <p className='text-xl uppercase py-5 text-slate-400'>Welcome to my world</p>
+                    <p className='text-xl uppercase py-5 text-slate-400'>{text} <Cursor/></p>
                     <h1  className='sm:text-4xl lg:text-6xl font-black pt-5'>Hi, I'm Utsha</h1>
                     <div className='slideUp ' style={{color: '#008bff', }}>
                         <h1 className='sm:text-4xl lg:text-6xl font-black font-extrabold text-4xl text-transparent bg-clip-text bg-gradient-to-r from-[#08AEEA] to-[#ffddca]' >MERN Dev.</h1>

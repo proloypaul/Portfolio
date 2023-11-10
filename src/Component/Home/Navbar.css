@@ -6,7 +6,7 @@
     color: #008bff;
     width: 100%;
     position: absolute;
-    border-right:3px solid #008bff;
+    /* border-right:3px solid #008bff; */
     animation: textSlide 3s linear infinite;
     -webkit-animation: textSlide 3s linear infinite;
     -moz-animation: textSlide 3s linear infinite;
