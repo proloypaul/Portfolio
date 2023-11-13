@@ -6,6 +6,7 @@ import {SiFirebase} from 'react-icons/si';
 import {FaBootstrap} from 'react-icons/fa';
 import {SiMongodb} from 'react-icons/si';
 import {FaReact} from 'react-icons/fa';
+import {DiNodejs} from 'react-icons/di';
 
 
 
@@ -32,6 +33,14 @@ const WebSkill = () => {
                 <div data-aos="flip-up" className='py-3.5 px-5 bg-black text-white shadow-md shadow-slate-400 border-0 rounded-lg' >
                     <h1 className='font-bold text-2xl text-slate-400'>React</h1>
                     <div className='py-3 text-9xl flex justify-center text-slate-400'><FaReact/></div>
+                    <div>
+                        <div className='w-3/5 h-2 border-0 rounded-lg' style={{backgroundColor: '#008bff'}}></div>
+                        <h1>60%</h1>
+                    </div>
+                </div>
+                <div data-aos="flip-up" className='py-3.5 px-5 bg-black text-white shadow-md shadow-slate-400 border-0 rounded-lg' >
+                    <h1 className='font-bold text-2xl text-slate-400'>NodeJs</h1>
+                    <div className='py-3 text-9xl flex justify-center text-slate-400'><DiNodejs/></div>
                     <div>
                         <div className='w-3/5 h-2 border-0 rounded-lg' style={{backgroundColor: '#008bff'}}></div>
                         <h1>60%</h1>
