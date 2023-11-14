@@ -27,7 +27,7 @@ const Navbar = () => {
                 <div>
                     <div onClick={() => handleBar(clicked)} className='sm:flex lg:hidden text-3xl '>{clicked ?<GoThreeBars/> : <AiFillCloseCircle/>}</div>
                     <div className='sm:flex lg:hidden'></div>
-                    <ul className={clicked ? 'navSmallStyle': 'lg:flex lg:justify-around w-96 navMobile'} >
+                    <ul className={clicked ? 'navSmallStyle': 'lg:flex lg:justify-around w-96 navMobile font-serif'} >
                         <li><NavLink to="/" activeclassName='active'><GoHome/>Home </NavLink></li>
                         <li><NavLink to="/about" activeclassName='active'><CgProfile/>About</NavLink></li>
                         <li><NavLink to="/project" activeclassName='active'><AiOutlineProject/>Project</NavLink></li>

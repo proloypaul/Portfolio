@@ -19,7 +19,7 @@
 }
 
 nav .navMobile{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
 }
 .navMobile li{
@@ -27,7 +27,6 @@ nav .navMobile{
     padding-bottom: 10px;
 }
 .navMobile li:hover{
-    /* border-bottom: 2px solid #008bff; */
     color: #008bff;
     letter-spacing: 2px;
     

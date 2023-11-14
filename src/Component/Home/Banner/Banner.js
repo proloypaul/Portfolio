@@ -21,7 +21,7 @@ const Banner = () => {
                 <div data-aos="fade-down"
                     data-aos-easing="linear"
                     data-aos-duration="1500">
-                    <p className='text-xl uppercase py-5 text-slate-400'>{text} <Cursor/></p>
+                    <p className='text-xl uppercase py-5 text-gray-400 font-serif'>{text} <Cursor/></p>
                     <h1  className='sm:text-4xl lg:text-6xl font-black pt-5'>Hi, I'm Utsha</h1>
                     <div className='slideUp ' style={{color: '#008bff', }}>
                         <h1 className='sm:text-4xl lg:text-6xl font-black font-extrabold text-4xl text-transparent bg-clip-text bg-gradient-to-r from-[#08AEEA] to-[#ffddca]' >MERN Dev.</h1>
@@ -29,8 +29,8 @@ const Banner = () => {
                         <h1 className='sm:text-4xl lg:text-6xl font-black font-extrabold text-4xl text-transparent bg-clip-text bg-gradient-to-r from-[#08AEEA] to-[#ffddca]' >Frontend Dev.</h1>
                     </div>
                     <div className='py-5 pt-12 flex'>
-                        <a href='https://drive.google.com/file/d/1y-G2gvl13tVpP3dSEp_8p8zoQA9D7QjH/view?usp=sharing' target='_blank' rel='noreferrer' className='px-5 py-2  text-white rounded-t-lg border-r-2 border-l-2 border-t-2 hover:bg-slate-400 shadow-md shadow-slate-400 flex justify-center items-center mr-3.5 font-bold text-xl'>Resume <IoIosOpen/></a>
-                        <Link to='/contact' className='px-5 py-2  text-white rounded-t-lg border-r-2 border-l-2 border-t-2 hover:bg-slate-400 shadow-md shadow-slate-400 flex justify-center items-center font-bold text-xl'>Contact<AiOutlineSelect/></Link>
+                        <a href='https://drive.google.com/file/d/1y-G2gvl13tVpP3dSEp_8p8zoQA9D7QjH/view?usp=sharing' target='_blank' rel='noreferrer' className='transition ease-in-out delay-150 px-5 py-2  text-white rounded-t-lg border-r-2 border-l-2 border-t-2 hover:bg-gray-400 shadow-md shadow-gray-400 flex justify-center items-center mr-3.5 font-bold text-xl duration-300'>Resume <IoIosOpen/></a>
+                        <Link to='/contact' className='transition ease-in-out delay-150 px-5 py-2  text-white rounded-t-lg border-r-2 border-l-2 border-t-2 hover:bg-gray-400 shadow-md shadow-gray-400 flex justify-center items-center font-bold text-xl duration-300'>Contact<AiOutlineSelect/></Link>
                     </div>
                     
                 </div>

@@ -9,7 +9,7 @@ import homeImgTwo from '../../../src/images/aboutAvatar.gif'
 const About = () => {
     const [clicked, setClicked] = useState(false)
     const {text} = useTypewriter({
-        words: ['Javascript', 'React', 'Next', 'React-router-dom', 'Redux', 'Mongoose', 'Express.js', 'Typescript', 'Mongodb'],
+        words: ['Javascript', 'React.js', 'Next.js', 'React-router-dom', 'Redux.js', 'Mongoose', 'Express.js', 'Typescript', 'Mongodb'],
         loop: 0, // Infinit
       })
 
@@ -28,18 +28,18 @@ const About = () => {
                     <img src={homeImgTwo} alt='Empty!'width='250px' height='200px'/>
                     <div className='pt-5'>
                         <div>
-                            <h1><span className='text-slate-400 font-bold text-xl'>__Name</span>: Utsha Kumar Paul</h1>
-                            <h1><span className='text-slate-400 font-bold text-xl'>__Phone</span>: (+88) 01309778619</h1>
+                            <h1><span className='text-gray-500 font-serif font-bold text-xl'>__Name</span>: Utsha Kumar Paul</h1>
+                            <h1><span className='text-gray-500 font-serif font-bold text-xl'>__Phone</span>: (+88) 01309778619</h1>
                         </div>
                         <div>
-                            <h1><span className='text-slate-400 font-bold text-xl'>__Age</span>: 20</h1>
-                            <h1><span className='text-slate-400 font-bold text-xl'>__Address</span>: Dhaka, Bangladesh</h1>
-                            <h1><span className='text-slate-400 font-bold text-xl'>__Profession</span>: Frontend Developer</h1>
+                            <h1><span className='text-gray-500 font-serif font-bold text-xl'>__Age</span>: 20</h1>
+                            <h1><span className='text-gray-500 font-serif font-bold text-xl'>__Address</span>: Dhaka, Bangladesh</h1>
+                            <h1><span className='text-gray-500 font-serif font-bold text-xl'>__Profession</span>: MERN Stack Developer</h1>
                         </div>
                         
                     </div>
                 </div>
-                <div className='w-full flex items-center justify-center text-xl leading-6 text-slate-400 pt-8 lg:pt-0'>
+                <div className='w-full flex items-center justify-center text-xl leading-6 text-gray-200 font-serif pt-8 lg:pt-0 tracking-wide leading-relaxed'>
                     <div>
                         <p>I'm Utsha Paul and I Know Some Interesting Tecnology</p>
                         <p><span style={{color: '#008bff', fontWeight: 'bold'}}>{text} <Cursor/></span></p>
