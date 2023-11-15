@@ -3,15 +3,12 @@ import {
   Button,
   Dialog,
   DialogHeader,
-  DialogBody,
   DialogFooter,
 } from "@material-tailwind/react";
- 
+import { VscActivateBreakpoints } from "react-icons/vsc"; 
+
 export function ProjectDescription({open, handleOpen, projectData}) {
-//   const [open, setOpen] = React.useState(false);
- 
-//   const handleOpen = () => setOpen(!open);
-//  console.log("project Data", projectData)
+
   return (
     <>
       <Dialog
@@ -23,23 +20,31 @@ export function ProjectDescription({open, handleOpen, projectData}) {
         }}
       >
         <DialogHeader>{projectData.title}</DialogHeader>
-        <DialogBody className="h-96">
-          The key to more success is to have a lot of pillows. Put it this way,
-          it took me twenty five years to get these plants, twenty five years of
-          blood sweat and tears, and I&apos;m never giving up, I&apos;m just
-          getting started. I&apos;m up to something. Fan luv.
-        </DialogBody>
+        <div className="h-96 mx-5">
+            <div>
+                <p className="font-serif font-bold text-black text-xl">Summery</p>
+                <div>
+                    {projectData?.description.map(line =><div>
+                        <div className="text-black font-serif py-3 pl-5">
+                            <VscActivateBreakpoints className="text-xl text-blue-900"/><p className="pl-3">{line}</p>
+                        </div>
+                    </div> )}
+                </div>
+                {/* <div className="pt-3 pl-5">
+                    {projectData?.technology.map(tech => <ul className="list-disc">
+                        <li className="">{tech}</li>
+                    </ul>)}
+                </div> */}
+            </div>
+        </div>
         <DialogFooter>
           <Button
-            variant="text"
+            variant="gradient"
             color="red"
             onClick={handleOpen}
             className="mr-1"
           >
-            <span>Cancel</span>
-          </Button>
-          <Button variant="gradient" color="green" onClick={handleOpen}>
-            <span>Confirm</span>
+            <span>Enter</span>
           </Button>
         </DialogFooter>
       </Dialog>

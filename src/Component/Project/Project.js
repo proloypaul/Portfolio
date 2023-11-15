@@ -25,7 +25,17 @@ const projectDescriptionData = [
     {
         title: "belly_food",
         description: ["Users will be able to visit the website through login and register", "Users can purchase our delicious foods submit some data and delete their purchase order. Users also can give their reviews about the product", "Admin can manage all orders, add other products, manage products, and make an admin. login Email: admin1234@gmail.com, Password: admin1234@"],
-        technology: ["React", "Node"]
+        technology: ["React", "React-Tailwind", "Material-Tailwind", "Redux", "Node", "MongoDB", "Firebase"]
+    },
+    {
+        title: "E-smart",
+        description: ["E-smarts is an online learning platform for learners. Here users will get courses for Graphics Design, Programming, Web Design & Web Development, etc. For any course of your choice, you can easily log in or register your account and buy your favorite course.", "Users can see all their ordered courses from the myOrder feature. The user can give compliments on the Review feature and see those reviews from the home page. The user also can visit our Blogs, Instructor pages", "An admin can manage all courses, and orders and set another user as an admin"],
+        technology: ["React", "React-Bootstrap", "React-Router-v6", "Node", "Express", "MongoDB", "Firebase"]
+    },
+    {
+        title: "Cow Hut(Develop server site)",
+        description: ["I have implemented a Cow Hut server site code to visualize the Application  UI and also built a Global Error handle for the user more readable and understandable such as ZodError, ValidationError, CastError, etc.", "Implement buyer, seller, and Admin roles they are playing different characters in this application the token authorizes all roles. When users log in they can access data according to their role Also given some restrictions users. If they pass their token from the headers authorization field then buyer, seller, and admin can access their routes.", "Also, build a refresh token when the access token will be expire. Implement more security for users using the hashing method. In need, I did relations."],
+        technology: ["Typescript", "Node", "Express", "Mongoose", "MongoDB", "Zod", "JWT"]
     }
 ]
 
@@ -38,6 +48,10 @@ const Project = () => {
         setOpen(!open)
         if(project === "projectOne"){
             setProjectExplain("projectOne")
+        }else if(project === "projectTwo"){
+            setProjectExplain("projectTwo")
+        }else if(project === "projectThree"){
+            setProjectExplain("projectThree")
         }
     };
 
@@ -75,7 +89,6 @@ const Project = () => {
                             <h1 className='font-bold text-3xl'>belly_food</h1>
                             <span className='text-2xl text-blue-600 cursor-pointer'onClick={() => handleOpen("projectOne")}><IoIosOpen/></span>
                         </div>
-                        {/* <a href='https://belly-food-client.vercel.app/' target='_blank' rel='noreferrer' className='my-10 py-5 mx-16 border-0 rounded-md text-white font-bold text-xl flex justify-center items-center text-slate-400 cursor-pointer hover:underline cursor-pointer' style={{backgroundColor: '#008bff'}}>Live<span className='animate-bounce'><IoIosOpen/></span></a> */}
                         <div className='flex items-center justify-center my-10'>
                             <img src={belly_foodImg} alt='Empty!' width="400px" className='border-0 rounded-lg'/>
                         </div>
@@ -96,8 +109,10 @@ const Project = () => {
                         </div>
                     </div>
                     <div data-aos="zoom-in" className='py-3.5 px-5 text-gray-400 border-0 rounded-lg hover:shadow-lg hover:shadow-pink-400 font-serif' >
-                        <h1 className='font-bold text-3xl'>E-smart</h1>
-                        {/* <a href='https://e-smarts.web.app/' target='_blank' rel='noreferrer' className='my-10 py-5 mx-16 border-0 rounded-md text-white font-bold text-xl flex justify-center items-center text-slate-400 cursor-pointer hover:underline' style={{backgroundColor: '#008bff'}}>Live <span className='animate-bounce'><IoIosOpen/></span></a> */}
+                        <div className='flex justify-between items-center'>
+                            <h1 className='font-bold text-3xl'>E_smart</h1>
+                            <span className='text-2xl text-blue-600 cursor-pointer'onClick={() => handleOpen("projectTwo")}><IoIosOpen/></span>
+                        </div>
                         <div className='flex items-center justify-center my-10'>
                             <img src={e_smartImg} alt='Empty!' width="400px" className='border-0 rounded-lg'/>
                         </div>
@@ -118,8 +133,10 @@ const Project = () => {
                         </div>
                     </div>
                     <div data-aos="flip-left" className='py-3.5 px-5 text-gray-400 border-0 rounded-lg hover:shadow-lg hover:shadow-pink-400 font-serif' >
-                        <h1 className='font-bold text-3xl'>Cow Hut(Backend)</h1>
-                        {/* <a href='https://l2a3-cow-hut-backend-assignment-proloypaul.vercel.app/' target='_blank' rel='noreferrer' className='my-10 py-5 mx-16 border-0 rounded-md text-white font-bold text-xl flex justify-center items-center text-slate-400 cursor-pointer hover:underline' style={{backgroundColor: '#008bff'}}>Server Live <span className='animate-bounce'><IoIosOpen/></span></a> */}
+                        <div className='flex justify-between items-center'>
+                            <h1 className='font-bold text-3xl'>Cow Hut(Backend)</h1>
+                            <span className='text-2xl text-blue-600 cursor-pointer'onClick={() => handleOpen("projectThree")}><IoIosOpen/></span>
+                        </div>
                         <div className='flex items-center justify-center my-10'>
                             <img src={cowHutImg} alt='Empty!' width="400px" className='border-0 rounded-lg'/>
                         </div>
@@ -203,31 +220,11 @@ const Project = () => {
                     </div>
                 </div>
                 <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-4 py-10 projectBoxs'>
-                    <div data-aos="flip-right" className='transition ease-in-out delay-150 py-3.5 px-5 bg-black-900 text-gray-400 font-serif border-0 rounded-lg hover:shadow-lg hover:shadow-pink-400 duration-300' >
-                        <h1 className='font-bold text-3xl'>belly_food</h1>
-                        {/* <a href='https://belly-food-client.vercel.app/' target='_blank' rel='noreferrer' className='my-10 py-5 mx-16 border-0 rounded-md text-white font-bold text-xl flex justify-center items-center text-slate-400 cursor-pointer hover:underline cursor-pointer' style={{backgroundColor: '#008bff'}}>Live<span className='animate-bounce'><IoIosOpen/></span></a> */}
-                        <div className='flex items-center justify-center my-10'>
-                            <img src={belly_foodImg} alt='Empty!' width="400px" className='border-0 rounded-lg'/>
-                        </div>
-                        <div>
-                            <h1 className='text-xl font-bold'>Used Technology</h1>
-                            <div className='pl-5 hover:text-white'>
-                                <li className='list-disc'>React</li>
-                                <li className='list-disc'>Node</li>
-                                <li className='list-disc'>Redux</li>
-                                <li className='list-disc'>Material-Tailwind</li>
-                                <li className='list-disc'>MongoDB</li>
-                            </div>
-                            <div className='py-5 flex justify-center'>
-                                <a href='https://belly-food-client.vercel.app/' target='_blank' rel='noreferrer' className='commonBtnTwo flex items-center mr-2'>Live <IoIosOpen/></a>
-                                <a href='https://github.com/proloypaul/belly-food-server' target='_blank' rel='noreferrer' className='commonBtnTwo flex items-center mr-2'>Server <BsGithub/></a>
-                                <a href='https://github.com/proloypaul/belly-food-client' target='_blank' rel='noreferrer' className='commonBtnTwo'><BsGithub/></a>
-                            </div>
-                        </div>
-                    </div>
                     <div data-aos="zoom-in" className='py-3.5 px-5 text-gray-400 border-0 rounded-lg hover:shadow-lg hover:shadow-pink-400 font-serif' >
-                        <h1 className='font-bold text-3xl'>E-smart</h1>
-                        {/* <a href='https://e-smarts.web.app/' target='_blank' rel='noreferrer' className='my-10 py-5 mx-16 border-0 rounded-md text-white font-bold text-xl flex justify-center items-center text-slate-400 cursor-pointer hover:underline' style={{backgroundColor: '#008bff'}}>Live <span className='animate-bounce'><IoIosOpen/></span></a> */}
+                        <div className='flex justify-between items-center'>
+                            <h1 className='font-bold text-3xl'>E_smart</h1>
+                            <span className='text-2xl text-blue-600 cursor-pointer'onClick={() => handleOpen("projectTwo")}><IoIosOpen/></span>
+                        </div>
                         <div className='flex items-center justify-center my-10'>
                             <img src={e_smartImg} alt='Empty!' width="400px" className='border-0 rounded-lg'/>
                         </div>
@@ -247,9 +244,35 @@ const Project = () => {
                             </div>
                         </div>
                     </div>
+                    <div data-aos="flip-right" className='transition ease-in-out delay-150 py-3.5 px-5 bg-black-900 text-gray-400 font-serif border-0 rounded-lg hover:shadow-lg hover:shadow-pink-400 duration-300' >
+                        <div className='flex justify-between items-center'>
+                            <h1 className='font-bold text-3xl'>belly_food</h1>
+                            <span className='text-2xl text-blue-600 cursor-pointer'onClick={() => handleOpen("projectOne")}><IoIosOpen/></span>
+                        </div>
+                        <div className='flex items-center justify-center my-10'>
+                            <img src={belly_foodImg} alt='Empty!' width="400px" className='border-0 rounded-lg'/>
+                        </div>
+                        <div>
+                            <h1 className='text-xl font-bold'>Used Technology</h1>
+                            <div className='pl-5 hover:text-white'>
+                                <li className='list-disc'>React</li>
+                                <li className='list-disc'>Node</li>
+                                <li className='list-disc'>Redux</li>
+                                <li className='list-disc'>Material-Tailwind</li>
+                                <li className='list-disc'>MongoDB</li>
+                            </div>
+                            <div className='py-5 flex justify-center'>
+                                <a href='https://belly-food-client.vercel.app/' target='_blank' rel='noreferrer' className='commonBtnTwo flex items-center mr-2'>Live <IoIosOpen/></a>
+                                <a href='https://github.com/proloypaul/belly-food-server' target='_blank' rel='noreferrer' className='commonBtnTwo flex items-center mr-2'>Server <BsGithub/></a>
+                                <a href='https://github.com/proloypaul/belly-food-client' target='_blank' rel='noreferrer' className='commonBtnTwo'><BsGithub/></a>
+                            </div>
+                        </div>
+                    </div>
                     <div data-aos="flip-left" className='py-3.5 px-5 text-gray-400 border-0 rounded-lg hover:shadow-lg hover:shadow-pink-400 font-serif' >
-                        <h1 className='font-bold text-3xl'>Cow Hut(Backend)</h1>
-                        {/* <a href='https://l2a3-cow-hut-backend-assignment-proloypaul.vercel.app/' target='_blank' rel='noreferrer' className='my-10 py-5 mx-16 border-0 rounded-md text-white font-bold text-xl flex justify-center items-center text-slate-400 cursor-pointer hover:underline' style={{backgroundColor: '#008bff'}}>Server Live <span className='animate-bounce'><IoIosOpen/></span></a> */}
+                        <div className='flex justify-between items-center'>
+                            <h1 className='font-bold text-3xl'>Cow Hut(Backend)</h1>
+                            <span className='text-2xl text-blue-600 cursor-pointer'onClick={() => handleOpen("projectThree")}><IoIosOpen/></span>
+                        </div>
                         <div className='flex items-center justify-center my-10'>
                             <img src={cowHutImg} alt='Empty!' width="400px" className='border-0 rounded-lg'/>
                         </div>
@@ -274,7 +297,10 @@ const Project = () => {
             <div className='pt-10'>
                 <h1 className='text-xl font-bold flex justify-center items-center cursor-pointer animate-bounce mt-5'><span className='text-2xl text-blue-500'><AiFillDownCircle/></span> See more</h1>
             </div>
-            {projectExplain === "projectOne"? <ProjectDescription open={open} handleOpen={handleOpen}  projectData={projectDescriptionData[0]}/>: ''}
+
+            {/* show popup of project description */}
+            {projectExplain === "projectOne"? <ProjectDescription open={open} handleOpen={handleOpen}  projectData={projectDescriptionData[0]}/>: projectExplain === "projectTwo"? <ProjectDescription open={open} handleOpen={handleOpen}  projectData={projectDescriptionData[1]}/>: projectExplain === "projectThree"?<ProjectDescription open={open} handleOpen={handleOpen}  projectData={projectDescriptionData[2]}/>:''}
+
         </div>
     );
 };

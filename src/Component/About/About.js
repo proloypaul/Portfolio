@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import Skill from './Skill/Skill';
-import homeImgTwo from '../../../src/images/aboutAvatar.gif'
+import aboutPic from '../../../src/images/aboutPicOne.png'
+import { Avatar } from '@material-tailwind/react';
 
 
 
@@ -25,7 +26,12 @@ const About = () => {
             </div>
             <div className='lg:flex  lg:justify-between  py-5'>
                 <div data-aos="fade-down" className='w-full'>
-                    <img src={homeImgTwo} alt='Empty!'width='250px' height='200px'/>
+                <Avatar
+                size="xxl"
+                alt="avatar"
+                src={aboutPic}
+                className="border border-blue-500 shadow-xl shadow-blue-900/20 ring-4 ring-blue-500/30"
+                />
                     <div className='pt-5'>
                         <div>
                             <h1><span className='text-gray-500 font-serif font-bold text-xl'>__Name</span>: Utsha Kumar Paul</h1>
@@ -56,7 +62,7 @@ const About = () => {
                         <li data-aos="flip-left" className='hover:text-blue-500 hover:tracking-widest hover:border-blue-500 hover:transition-all' onClick={() => handleClick(true)}><span className={clicked?"text-blue-500 tracking-widest border-blue-500": ''}>Education</span></li>
                     </ul>
                 </div>
-                {clicked ?  <div className='text-xl font-bold text-slate-200'>
+                {clicked ?  <div className='text-xl font-bold text-slate-200 py-10'>
                     <div>
                         <p>Diploma in Computer Science - <span className='text-slate-400 font-light'>Dhaka Politechnic Institute, Dhaka</span></p>
                         <p className='text-slate-400 font-light'>2019-2020</p>
@@ -66,8 +72,8 @@ const About = () => {
                         <p className='text-slate-400 font-light'>2020</p>
                     </div>
                     <div>
-                        <p>Diploma in Computer Science - <span className='text-slate-400 font-light'>Dhaka Politechnic Institute, Dhaka</span></p>
-                        <p className='text-slate-400 font-light'>2019-2020</p>
+                        <p>Python Programming - <span className='text-slate-400 font-light'>People N Tech Institute, Dhaka</span></p>
+                        <p className='text-slate-400 font-light'>2023</p>
                     </div>
                 </div>: <h1><Skill/></h1>}
             </div>
