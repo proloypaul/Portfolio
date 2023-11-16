@@ -149,9 +149,8 @@ const Project = () => {
                                 <li className='list-disc'>MongoDB</li>
                             </div>
                             <div className='py-5 flex justify-center'>
-                                <a href='https://l2a3-cow-hut-backend-assignment-proloypaul.vercel.app/' target='_blank' rel='noreferrer' className='commonBtnTwo flex items-center mr-2'>Live <IoIosOpen/></a>
+                                <a href='https://l2a3-cow-hut-backend-assignment-proloypaul.vercel.app/' target='_blank' rel='noreferrer' className='commonBtnTwo flex items-center mr-2'>Server Live<IoIosOpen/></a>
                                 <a href='https://github.com/proloypaul/Cow-hut-serverSite' target='_blank' rel='noreferrer' className='commonBtnTwo flex items-center mr-2'>Server <BsGithub/></a>
-                                <a href='https://github.com/proloypaul/Cow-hut-serverSite' target='_blank' rel='noreferrer' className='commonBtnTwo'><BsGithub/></a>
                             </div>
                         </div>
                     </div>
@@ -285,9 +284,8 @@ const Project = () => {
                                 <li className='list-disc'>MongoDB</li>
                             </div>
                             <div className='py-5 flex justify-center'>
-                                <a href='https://l2a3-cow-hut-backend-assignment-proloypaul.vercel.app/' target='_blank' rel='noreferrer' className='commonBtnTwo flex items-center mr-2'>Live <IoIosOpen/></a>
+                                <a href='https://l2a3-cow-hut-backend-assignment-proloypaul.vercel.app/' target='_blank' rel='noreferrer' className='commonBtnTwo flex items-center mr-2'> Server Live <IoIosOpen/></a>
                                 <a href='https://github.com/proloypaul/Cow-hut-serverSite' target='_blank' rel='noreferrer' className='commonBtnTwo flex items-center mr-2'>Server <BsGithub/></a>
-                                <a href='https://github.com/proloypaul/Cow-hut-serverSite' target='_blank' rel='noreferrer' className='commonBtnTwo'><BsGithub/></a>
                             </div>
                         </div>
                     </div>
