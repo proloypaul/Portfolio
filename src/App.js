@@ -13,7 +13,14 @@ import Navbar from './Component/Home/Navbar';
 import Project from './Component/Project/Project';
 import Particle from './AnimationsCom/Particle';
 import CursorAnimation from './AnimationsCom/CursorAnimation';
+import 'aos/dist/aos.css'
+import AOS from 'aos';
 
+AOS.init()
+let samt = 0;
+window.addEventListener('scroll', function() {
+samt <= 10 ? samt++ : AOS.refresh();
+})
 
 function App() {
   
