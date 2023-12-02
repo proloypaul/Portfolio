@@ -46,6 +46,7 @@ function App() {
           </Route>
           <Route path="/project" element={<Project/>}/>
           <Route path="/blogs" element={<Blogs/>}/>
+          <Route path="/blogs/:" element={<Blogs/>}/>
           <Route path="/contact" element={<Contact/>}/>
         </Routes>
         <Footer></Footer>

@@ -21,6 +21,7 @@
 nav .navMobile{
     font-size: 18px;
     font-weight: 600;
+    z-index: 11;
 }
 .navMobile li{
     transition: all 0.5s ease-in-out;
